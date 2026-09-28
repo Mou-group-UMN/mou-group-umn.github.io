@@ -1,0 +1,8 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+<p class="muted">See also <a href="https://sites.google.com/view/shancongmou/research">Sean's research page</a>. <strong>Bold</strong> = group PI.</p>
+{% assign years = site.data.publications | group_by: "year" %}
+{% for y in years %}<h2>{{ y.name }}</h2><ol class="pubs">{% for p in y.items %}{% include pub.html p=p %}{% endfor %}</ol>{% endfor %}

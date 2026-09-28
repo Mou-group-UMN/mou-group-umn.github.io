@@ -1,0 +1,18 @@
+# photo: put the image in assets/img/people/ and write its file name. Leave blank for a placeholder.
+pi:
+  name: Shancong (Sean) Mou
+  role: Assistant Professor, Industrial and Systems Engineering
+  photo: ""
+  email: mou00006@umn.edu
+  web: https://sites.google.com/view/shancongmou
+  bio: >-
+    Sean Mou received his Ph.D. in Industrial Engineering from the H. Milton Stewart School of Industrial and
+    Systems Engineering at Georgia Tech (2024), advised by Prof. Jianjun Shi. He also holds an M.S. in
+    Computational Science and Engineering from Georgia Tech and a B.Eng. in Energy and Power Engineering from
+    Xi'an Jiaotong University. His research develops AI/ML-enabled data analytics for quality, productivity and
+    energy efficiency in complex engineering systems.
+phd:        # TODO: confirm names, roles and years
+  - {name: Deyi Kong, role: Ph.D. Student, photo: ""}
+  - {name: Yifeng, role: Ph.D. Student, photo: ""}
+postdocs: []
+alumni: []

@@ -1,0 +1,16 @@
+---
+layout: default
+title: People
+permalink: /people/
+---
+{% assign pi = site.data.people.pi %}
+<h2>Principal Investigator</h2>
+<div class="pi">
+  {% if pi.photo != "" %}<img src="{{ '/assets/img/people/' | append: pi.photo | relative_url }}" alt="{{ pi.name }}">{% else %}<div class="ph">SM</div>{% endif %}
+  <div><h3 style="margin-top:0">{{ pi.name }}</h3><p class="muted">{{ pi.role }}<br><a href="mailto:{{ pi.email }}">{{ pi.email }}</a> · <a href="{{ pi.web }}">Personal site</a></p><p>{{ pi.bio }}</p></div>
+</div>
+{% assign groups = "phd:Ph.D. Students,postdocs:Postdocs,alumni:Alumni" | split: "," %}
+{% for g in groups %}{% assign kv = g | split: ":" %}{% assign key = kv[0] %}{% assign list = site.data.people[key] %}
+{% if list.size > 0 %}<h2>{{ kv[1] }}</h2><div class="grid">{% for m in list %}
+<div class="card">{% if m.photo and m.photo != "" %}<img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="{{ m.name }}">{% else %}<div class="ph">{{ m.name | slice: 0 }}</div>{% endif %}<h3>{{ m.name }}</h3><p>{{ m.role }}</p>{% if m.web %}<p><a href="{{ m.web }}">Website</a></p>{% endif %}</div>
+{% endfor %}</div>{% endif %}{% endfor %}

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<section class="hero">
+  <div>
+    <h1>Mou Group</h1>
+    <p class="lead">We develop <strong>AI/ML-enabled data analytics</strong> to improve quality, productivity and energy efficiency in complex engineering systems — drawing on high-dimensional statistics, large-scale optimization, physics-informed machine learning and computational science.</p>
+    <p class="muted">{{ site.dept }}</p>
+  </div>
+  <div class="ph" style="width:100%;height:220px;border-radius:10px;font-size:18px">Group photo / research figure</div>
+</section>
+<div class="callout"><strong>We are recruiting!</strong> Openings for Ph.D. students with backgrounds in statistics, mathematics, computer science or engineering. Current UMN students and remote research assistants are also welcome. <a href="{{ '/join/' | relative_url }}">Learn more →</a></div>
+<h2>Recent News</h2>
+<ul class="news">{% for n in site.data.news %}<li><span class="d">{{ n.date }}</span><span>{{ n.text }}</span></li>{% endfor %}</ul>
+<h2>Sponsors</h2>
+<p class="muted">National Science Foundation · Samsung · NVIDIA · Apple · The Boeing Company · OG Technologies</p>
