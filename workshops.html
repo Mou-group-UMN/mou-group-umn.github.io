@@ -1,0 +1,27 @@
+---
+layout: default
+title: Workshops
+permalink: /workshops/
+---
+<p>Sean Mou helps organize <strong>VISION</strong>, the workshop series on Vision-based InduStrial InspectiON held at CVPR, ECCV and ICCV. Each edition brings together computer vision researchers and industry practitioners for keynote talks, paper sessions and data challenges on industrial inspection.</p>
+
+{% assign latest = site.data.workshops | first %}
+<h2>Latest Workshop</h2>
+<div class="area ws-latest">
+  <h3><a href="{{ latest.url }}">{{ latest.edition }} @ {{ latest.conference }}</a></h3>
+  <p><strong>{{ latest.ordinal }} workshop on Vision-based InduStrial InspectiON{% if latest.subtitle %}: {{ latest.subtitle }}{% endif %}</strong></p>
+  <p class="ws-meta">{{ latest.date }} · {{ latest.location }} · Sean Mou: {{ latest.role }}</p>
+  {% if latest.highlights %}<p>{{ latest.highlights }}</p>{% endif %}
+</div>
+
+<h2>Prior Workshops</h2>
+<ul class="ws-list">
+{% for w in site.data.workshops offset:1 %}
+  <li><a href="{{ w.url }}"><strong>{{ w.edition }} @ {{ w.conference }}</strong></a>: {{ w.ordinal }} workshop on Vision-based InduStrial InspectiON, {{ w.location }}.
+    <div class="ws-meta">{{ w.date }} · Sean Mou: {{ w.role }}</div>
+    {% if w.highlights %}<div class="ws-note">{{ w.highlights }}</div>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+<p class="muted">Related: <a href="https://arxiv.org/abs/2306.07890">VISION Datasets: A Benchmark for Vision-Based Industrial Inspection</a> (Bai, Mou, et al., 2023).</p>

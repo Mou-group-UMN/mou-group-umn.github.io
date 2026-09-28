@@ -1,0 +1,34 @@
+# VISION workshop series, newest first. The first entry is shown as "Latest Workshop";
+# the rest are listed under "Prior Workshops". role = Sean's role; highlights is optional.
+- edition: "VISION'26"
+  conference: CVPR 2026
+  ordinal: 4th
+  subtitle: "Vision-Based Industrial Inspection Across Modalities"
+  date: "June 3, 2026"
+  location: "Denver, Colorado"
+  url: https://vision-workshop-26.github.io/cvpr-2026/
+  role: Co-chair
+  highlights: "Three tracks: general vision inspection, degraded X-ray image enhancement and reconstruction, and intelligent security screening with X-ray."
+- edition: "VISION'25"
+  conference: ICCV 2025
+  ordinal: 3rd
+  date: "October 19, 2025"
+  location: "Honolulu, Hawaii"
+  url: https://vision-workshop.github.io/iccv-2025/
+  role: Co-chair
+- edition: "VISION'24"
+  conference: ECCV 2024
+  ordinal: 2nd
+  date: "September 30, 2024"
+  location: "Milano, Italy"
+  url: https://vision-based-industrial-inspection.github.io/eccv-24/
+  role: Chair
+  highlights: "Data challenge on one-shot industrial defect segmentation."
+- edition: "VISION'23"
+  conference: CVPR 2023
+  ordinal: 1st
+  date: "June 19, 2023"
+  location: "Vancouver, Canada"
+  url: https://vision-based-industrial-inspection.github.io/cvpr-2023/
+  role: Workshop and challenge organizer
+  highlights: "Two data challenges: data-efficient defect detection and synthetic data generation for defect detection."
