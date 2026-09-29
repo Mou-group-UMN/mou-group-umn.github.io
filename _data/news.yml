@@ -1,8 +1,11 @@
 # News, newest first. date = "Mon YYYY"; type = Paper / Funding / Award / Talk / Workshop.
 # text may use simple HTML: <em>, <strong>, <a href="...">.
+# Optional figure: image = path under /assets/img/ (e.g. /assets/img/news/x.jpg), caption = one line under it.
 - date: Sep 2026
   type: Talk
   text: Visited Samsung Electronics to give an invited presentation on our GRO project.
+  image: /assets/img/research/hvac-operation-to-design.jpg
+  caption: 'Samsung GRO project: from energy-efficient operation to optimal HVAC design.'
 - date: Sep 2026
   type: Paper
   text: 'New paper accepted at <strong>NeurIPS 2026</strong>: “Derivative-Informed Training of Neural Operators On-the-Fly via Sketched Tangent Consistency.” <a href="https://arxiv.org/abs/2609.32797">arXiv</a>'

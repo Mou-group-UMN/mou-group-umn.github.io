@@ -11,6 +11,6 @@ layout: default
 </section>
 <div class="callout"><strong>We are recruiting!</strong> Openings for Ph.D. students with backgrounds in statistics, mathematics, computer science or engineering. Current UMN students and remote research assistants are also welcome. <a href="{{ '/join/' | relative_url }}">Learn more →</a></div>
 <h2>Recent News</h2>
-<ul class="news">{% for n in site.data.news %}<li><span class="d">{{ n.date }}</span><span>{{ n.text }}</span></li>{% endfor %}</ul>
+<ul class="news">{% for n in site.data.news %}<li><span class="d">{{ n.date }}</span><div>{{ n.text }}{% if n.image %}<figure class="news-fig"><img src="{{ n.image | relative_url }}" alt="{{ n.alt | default: n.caption }}">{% if n.caption %}<figcaption>{{ n.caption }}</figcaption>{% endif %}</figure>{% endif %}</div></li>{% endfor %}</ul>
 <h2>Sponsors</h2>
 <p class="muted">National Science Foundation · Samsung · NVIDIA · Apple · The Boeing Company · OG Technologies</p>
