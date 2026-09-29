@@ -1,15 +1,56 @@
-# Newest first. Add a line at the top to post news.
-- {date: "2026", text: "NSF Award #2608818 funds our work on data quality evaluation and vision-based industrial inspection."}
-- {date: "2026", text: "Paper “DISCO: Disentangling Signal Restoration” accepted to <em>INFORMS Journal on Data Science</em>."}
-- {date: "2026", text: "Paper “Natural Hypergradient Descent” accepted to <strong>ICML 2026</strong>."}
-- {date: "2026", text: "Sean co-chairs the VISION’26 workshop at CVPR 2026 (June 3)."}
-- {date: "2026", text: "Samsung Global Research Outreach Award renewed for Year 2 (HVAC optimization)."}
-- {date: "2026", text: "Sean receives the IISE Transactions Best Reviewer Award."}
-- {date: "2026", text: "Sean named IPAM Mid-Career Fellow, Multi-Fidelity Methods for Fusion Energy."}
-- {date: "2026", text: "NVIDIA unrestricted computing credits gift (also in 2025)."}
-- {date: "2025", text: "Sean receives the Sigma Xi Best Ph.D. Thesis Award, Georgia Tech."}
-- {date: "2025", text: "Deyi Kong is a finalist for the INFORMS QSR Best Student Paper Award."}
-- {date: "2025", text: "Yifeng Wang's physics-informed neural ODE paper won the 2025 SPES + Q&amp;P Student Paper Competition."}
-- {date: "2025", text: "Paper selected for the <em>Applied Probability</em> Collection."}
-- {date: "2025", text: "Sean co-chairs the VISION’25 workshop at ICCV 2025 (October 19)."}
-- {date: "2024", text: "Samsung Global Research Outreach Award ($150k)."}
+# News, newest first. date = "Mon YYYY"; type = Paper / Funding / Award / Talk / Workshop.
+# text may use simple HTML: <em>, <strong>, <a href="...">.
+- date: Sep 2026
+  type: Talk
+  text: Visited Samsung Electronics to give an invited presentation on our GRO project.
+- date: Sep 2026
+  type: Paper
+  text: 'New paper accepted at <strong>NeurIPS 2026</strong>: “Derivative-Informed Training of Neural Operators On-the-Fly via Sketched Tangent Consistency.” <a href="https://arxiv.org/abs/2609.32797">arXiv</a>'
+- date: Jul 2026
+  type: Funding
+  text: 'Our group received an NSF award (#2608818, lead PI: Mou) for <em>Data Agent</em>: autonomous data quality evaluation, curation and task-aware dataset design for vision-based industrial inspection.'
+- date: Jul 2026
+  type: Paper
+  text: 'New paper accepted by the <em>INFORMS Journal on Data Science</em>: “DISCO: Disentangling Signal Restoration and Corruption Identification via Sample-Wise Latent Low-Rank Similarity.”'
+- date: Jun 2026
+  type: Funding
+  text: An unrestricted gift from NVIDIA supports our research on HVAC system modeling and optimization.
+- date: Jun 2026
+  type: Paper
+  text: 'New paper accepted at <strong>ICML 2026</strong>: “Natural Hypergradient Descent: Algorithm Design, Convergence Analysis, and Parallel Implementation.” <a href="https://arxiv.org/abs/2602.10905">arXiv</a>'
+- date: Jun 2026
+  type: Workshop
+  text: Co-chaired VISION’26 at CVPR 2026 (June 3, Denver).
+- date: Apr 2026
+  type: Talk
+  text: Guest lecture at Virginia Tech on decomposition-based anomaly detection.
+- date: Apr 2026
+  type: Funding
+  text: Samsung Global Research Outreach (GRO) award renewed for Year 2.
+- date: Mar 2026
+  type: Award
+  text: Inaugural Best Reviewer Award, <em>IISE Transactions</em>.
+- date: Jan 2026
+  type: Award
+  text: Selected as an IPAM Mid-Career Fellow for Multi-Fidelity Methods for Fusion Energy.
+- date: Oct 2025
+  type: Award
+  text: Deyi Kong was selected as a finalist for the INFORMS QSR Best Student Paper Award.
+- date: Oct 2025
+  type: Paper
+  text: 'Our paper was selected for the <em>Applied Probability</em> Collection: October 2025 Queueing Models. <a href="https://arxiv.org/abs/2006.06150">arXiv</a>'
+- date: Oct 2025
+  type: Workshop
+  text: VISION’25 at ICCV 2025 (October 19, Honolulu).
+- date: Jun 2025
+  type: Funding
+  text: NVIDIA computing credits gift for the Big VISION project.
+- date: Apr 2025
+  type: Award
+  text: Sean received the Sigma Xi Best Ph.D. Thesis Award, Georgia Tech.
+- date: Jan 2025
+  type: Award
+  text: Yifeng Wang's physics-informed neural ODE paper won the 2025 SPES + Q&amp;P Student Paper Competition.
+- date: Nov 2024
+  type: Funding
+  text: Samsung Global Research Outreach (GRO) award ($150k) for HVAC energy efficiency.
