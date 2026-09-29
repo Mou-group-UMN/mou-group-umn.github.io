@@ -1,20 +1,27 @@
 # News, newest first. date = "Mon YYYY"; type = Paper / Funding / Award / Talk / Workshop.
 # text may use simple HTML: <em>, <strong>, <a href="...">.
-# Optional figure: image = path under /assets/img/ (e.g. /assets/img/news/x.jpg), caption = one line under it.
+# Optional figure: image = path under /assets/img/ (e.g. /assets/img/news/x.jpg), caption = one line under it; image_width = display width in px (default 520).
 - date: Sep 2026
   type: Talk
   text: Visited Samsung Electronics to give an invited presentation on our GRO project.
   image: /assets/img/research/hvac-operation-to-design.jpg
   caption: 'Samsung GRO project: from energy-efficient operation to optimal HVAC design.'
+  image_width: 380
 - date: Sep 2026
   type: Paper
   text: 'New paper accepted at <strong>NeurIPS 2027</strong>: “Derivative-Informed Training of Neural Operators On-the-Fly via Sketched Tangent Consistency.” <a href="https://arxiv.org/abs/2609.32797">arXiv</a>'
+  image: /assets/img/news/stcl-overview.png
+  caption: sTCL enforces tangent consistency from the known PDE during training, with no offline derivative labels.
 - date: Jul 2026
   type: Funding
   text: 'Our group received an NSF award (#2608818, lead PI: Mou) for <em>Data Agent</em>: autonomous data quality evaluation, curation and task-aware dataset design for vision-based industrial inspection.'
+  image: /assets/img/research/data-agent-overview.png
+  caption: 'NSF Data Agent project: dataset screening, curation and task-aware design.'
 - date: Jul 2026
   type: Paper
-  text: 'New paper accepted by the <em>INFORMS Journal on Data Science</em>: “DISCO: Disentangling Signal Restoration and Corruption Identification via Sample-Wise Latent Low-Rank Similarity.”'
+  text: 'New paper accepted by the <em>INFORMS Journal on Data Science</em>: “DISCO: Disentangling Signal Restoration and Corruption Identification via Sample-Wise Latent Low-Rank Similarity.” <a href="https://doi.org/10.1287/ijds.2026.0150">Paper</a>'
+  image: /assets/img/news/disco-figure1.jpg
+  caption: DISCO’s autoencoder with sample-wise latent low-rank similarity (Wang et al., 2026).
 - date: Jun 2026
   type: Funding
   text: An unrestricted gift from NVIDIA supports our research on HVAC system modeling and optimization.

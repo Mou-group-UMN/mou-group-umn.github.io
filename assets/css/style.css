@@ -48,4 +48,4 @@ h2{color:var(--maroon);margin-top:2.2em}
 .card img{object-position:50% 28%}
 .former{padding-left:1.2em}.former li{margin:.3em 0}
 .fig{margin:16px 0 8px}.fig img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:#fff}.fig figcaption{margin-top:6px;font-size:14px;color:var(--muted)}
-.news-fig{margin:10px 0 2px}.news-fig img{display:block;width:560px;max-width:100%;height:auto;border:1px solid var(--line);border-radius:6px;background:#fff}.news-fig figcaption{margin-top:6px;font-size:14px;color:var(--muted)}
+.news-fig{margin:10px 0 2px}.news-fig img{display:block;width:520px;max-width:100%;height:auto;border:1px solid var(--line);border-radius:6px;background:#fff}.news-fig figcaption{margin-top:6px;font-size:14px;color:var(--muted)}
