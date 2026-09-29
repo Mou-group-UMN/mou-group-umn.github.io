@@ -1,4 +1,5 @@
-# photo: put the image in assets/img/people/ and write its file name. Leave blank for a placeholder.
+# People page data. photo = a file in assets/img/people/ ("" shows a placeholder).
+# Sections show in this order; an empty section is hidden.
 pi:
   name: Shancong (Sean) Mou
   role: Assistant Professor, Industrial and Systems Engineering
@@ -11,8 +12,20 @@ pi:
     Computational Science and Engineering from Georgia Tech and a B.Eng. in Energy and Power Engineering from
     Xi'an Jiaotong University. His research develops AI/ML-enabled data analytics for quality, productivity and
     energy efficiency in complex engineering systems.
-phd:        # TODO: confirm names, roles and years
-  - {name: Deyi Kong, role: Ph.D. Student, photo: ""}
-  - {name: Yifeng, role: Ph.D. Student, photo: ""}
+phd:
+  - {name: Chang He, role: Ph.D. Student, photo: chang-he.jpg}
+  - {name: Deyi Kong, role: Ph.D. Student, photo: deyi-kong.jpg, web: "https://cse.umn.edu/isye/deyi-kong"}
+  - {name: Robert Weber, role: Ph.D. Student, photo: robert-weber.jpg}
+  - {name: Xinhan Yang, role: Ph.D. Student, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang"}
+masters: []
+undergrads: []
+students:   # roles to confirm with Sean, then move each person to masters or undergrads
+  - {name: Siyu (Sylvia) Liu, photo: siyu-liu.jpg}
+  - {name: Chenxu Qiu Yau, photo: chenxu-qiu-yau.jpg}
+  - {name: Parth Rana, photo: parth-rana.jpg}
+  - {name: Yuxuan Zhao, photo: yuxuan-zhao.jpg}
 postdocs: []
-alumni: []
+former:
+  - {name: Wan Wang, role: "Master's student"}
+  - {name: Michele Nguyen, role: Undergraduate researcher, note: UROP Award recipient}
+  - {name: Yit Xiaang Ztang, role: Undergraduate researcher}

@@ -45,3 +45,5 @@ h2{color:var(--maroon);margin-top:2.2em}
 .ws-note{font-size:15px;margin-top:2px}
 .ws-latest h3{margin:.9em 0 .2em;font-size:22px}
 .ws-latest p{margin:.35em 0}
+.card img{object-position:50% 28%}
+.former{padding-left:1.2em}.former li{margin:.3em 0}
