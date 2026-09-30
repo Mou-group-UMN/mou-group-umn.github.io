@@ -1,0 +1,8 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for p in site.pages %}{% unless p.url contains ".xml" or p.url contains ".txt" or p.url contains "/assets/" or p.sitemap == false %}
+  <url><loc>{{ p.url | replace: "index.html", "" | absolute_url }}</loc></url>{% endunless %}{% endfor %}
+</urlset>

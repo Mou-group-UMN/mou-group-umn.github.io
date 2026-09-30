@@ -1,0 +1,16 @@
+{% if page.url == "/" %}{% assign seo_title = site.title | append: " | " | append: site.pi | append: ", University of Minnesota" %}{% else %}{% assign seo_title = page.title | append: " | " | append: site.title %}{% endif %}{% assign seo_desc = page.description | default: site.description | strip_html | strip_newlines | escape %}{% assign seo_url = page.url | replace: "index.html", "" | absolute_url %}
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ seo_desc }}">
+<link rel="canonical" href="{{ seo_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ seo_title }}">
+<meta property="og:description" content="{{ seo_desc }}">
+<meta property="og:url" content="{{ seo_url }}">
+<meta property="og:image" content="{{ '/assets/img/people/shancong-mou-portrait.jpg' | absolute_url }}">
+<meta name="twitter:card" content="summary">
+{% if site.google_site_verification and site.google_site_verification != "" %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{% endif %}{% if page.url == "/" %}{% assign pi = site.data.people.pi %}{% capture same %}{% for l in pi.links %}{% if l.url contains '://' %}"{{ l.url }}",{% endif %}{% endfor %}{% endcapture %}<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":{{ pi.name | jsonify }},"alternateName":["Shancong Mou","Sean Mou"],"jobTitle":"Assistant Professor","worksFor":{"@type":"CollegeOrUniversity","name":"University of Minnesota","department":{"@type":"Organization","name":"Department of Industrial and Systems Engineering"}},"alumniOf":{"@type":"CollegeOrUniversity","name":"Georgia Institute of Technology"},"email":"mailto:{{ pi.email }}","image":{{ '/assets/img/people/shancong-mou-portrait.jpg' | absolute_url | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"sameAs":[{{ same | strip | remove_last: ',' }}]}
+</script>
+{% endif %}
