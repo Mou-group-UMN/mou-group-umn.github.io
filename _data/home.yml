@@ -18,5 +18,7 @@ openings:
     sample publications if available. Current UMN students and remote research assistants are also welcome
     to reach out.
 sponsors:   # "Supported by" logo row at the bottom of the homepage; a logo shows once its file exists in the repo
-  # - {name: National Science Foundation, logo: /assets/img/sponsors/nsf.png, url: "https://www.nsf.gov/", height: 56}
-  []
+  - {name: National Science Foundation, logo: /assets/img/sponsors/nsf.png, url: "https://www.nsf.gov/", height: 60}
+  - {name: NVIDIA, logo: /assets/img/sponsors/nvidia.png, url: "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/", height: 34}
+  - {name: Samsung, logo: /assets/img/sponsors/samsung.png, url: "https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do", height: 44}
+  - {name: "University of Minnesota Data Science Initiative", logo: /assets/img/sponsors/umn-dsi.png, url: "https://dsi.umn.edu/", height: 44}
