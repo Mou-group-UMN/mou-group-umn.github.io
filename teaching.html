@@ -1,0 +1,15 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+{% assign t = site.data.teaching %}{% for s in t.schools %}
+<h2>{{ s.name }}</h2>
+<ul class="tc-list">{% for c in s.courses %}
+<li><span class="tc-code">{{ c.code }}</span><div class="tc-body"><div class="tc-title">{{ c.title }}</div><div class="tc-meta">{{ c.terms }}{% if c.role %} · {{ c.role }}{% endif %}</div>{% if c.note %}<div class="tc-note">{{ c.note }}</div>{% endif %}{% if c.links %}<div class="tc-links">{% for l in c.links %}<a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label }}</a>{% endfor %}</div>{% endif %}{% if c.material %}{% include material-card.html m=c.material %}{% endif %}</div></li>{% endfor %}
+</ul>{% endfor %}
+{% if t.tutorials %}
+<h2>Tutorials</h2>
+<ul class="tc-list">{% for u in t.tutorials %}
+<li><span class="tc-code">{{ u.year }}</span><div class="tc-body"><div class="tc-title">{{ u.title }}</div><div class="tc-meta">{{ u.event }}</div>{% if u.note %}<div class="tc-note">{{ u.note }}</div>{% endif %}{% if u.material %}{% include material-card.html m=u.material %}{% endif %}</div></li>{% endfor %}
+</ul>{% endif %}

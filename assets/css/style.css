@@ -152,6 +152,19 @@ h3{font-size:19px;line-height:1.3}
 .pj-figs img{display:block;width:100%;height:auto;border:1px solid var(--line);background:#fff}
 .pj-figs figcaption{margin-top:6px;font-size:13.5px;line-height:1.45;color:var(--muted)}
 
+/* teaching */
+.tc-list{list-style:none;margin:0;padding:0}
+.tc-list>li{display:grid;grid-template-columns:100px minmax(0,1fr);gap:4px 20px;padding:16px 0;border-top:1px solid var(--line-2)}
+.tc-list>li:last-child{border-bottom:1px solid var(--line-2)}
+.tc-code{font:500 13.5px/1.75 var(--mono);color:var(--maroon);letter-spacing:.02em;white-space:nowrap}
+.tc-title{font-size:17px;font-weight:600;line-height:1.4}
+.tc-meta{margin-top:2px;font:13px/1.6 var(--mono);color:var(--muted)}
+.tc-note{margin-top:4px;font-size:15px;line-height:1.5}
+.tc-links{display:flex;flex-wrap:wrap;gap:2px 16px;margin-top:6px;font:500 13px/1.6 var(--mono)}
+.mat-card{margin-top:12px}
+.mat-card .lc-img{width:190px;object-fit:contain;padding:8px;background:#fff;border-right:1px solid var(--line)}
+@media(max-width:560px){.tc-list>li{grid-template-columns:1fr;gap:2px}.mat-card .lc-img{border-right:0;border-bottom:1px solid var(--line)}}
+
 /* workshops: cards like the "Prior Workshops" list on the VISION'26 site (banner on top, centered title) */
 .ws-cards{display:flex;flex-direction:column;gap:24px}
 .ws-card{display:block;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.05);text-decoration:none;color:inherit;transition:box-shadow .15s}

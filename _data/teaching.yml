@@ -1,0 +1,53 @@
+# Teaching page (teaching.html). Schools, courses and tutorials show in this order.
+# Per course: code, title, terms, optional role, note (HTML), links [{label, url}] and material
+# (a slide-preview card: title, kicker, description, url, thumb; url/thumb may be /assets/... paths).
+schools:
+  - name: University of Minnesota Twin Cities
+    courses:
+      - code: IE 3522
+        title: Quality Engineering and Six Sigma
+        terms: Spring 2025, Spring 2026 and Fall 2026
+      - code: IE 8534
+        title: "Physics-Informed Machine Learning: Methodology and Applications"
+        terms: Fall 2025
+        links:
+          - {label: Course website, url: "https://sites.google.com/umn.edu/ie-8534-piml-25fall/piml"}
+        material:
+          title: "Physics-Informed Machine Learning: Methodology and Practice"
+          kicker: Lecture slides · PDF · 128 slides
+          description: PDEs and forward/inverse problems, physics-informed neural networks, operator learning (graph kernel networks, Fourier neural operators, DeepONet), PDE identification, neural ODEs and the adjoint method, and differentiable physics.
+          url: /assets/teaching/ie8534-piml-lecture-slides-fall2025.pdf
+          thumb: /assets/img/teaching/ie8534-slides-thumb.jpg
+      - code: IE 3521
+        title: Statistics, Quality, and Reliability
+        terms: Fall 2025
+  - name: Georgia Institute of Technology
+    courses:
+      - code: ISYE 3133
+        title: Engineering Optimization
+        terms: Spring 2021 and Fall 2021
+        role: Instructor
+        note: '<a href="https://www.isye.gatech.edu/academics/doctoral/current-students/graduate-awards">ISyE Outstanding Graduate Student Instructor of the Year Award</a>'
+      - code: ISYE 7204
+        title: Informatics of Production and Service Systems
+        terms: Spring 2023 and Spring 2024
+        role: Guest lecturer
+        note: Developed and delivered five guest lectures on physics-informed machine learning, which received excellent feedback from the students.
+        links:   # the slides and recordings linked from Sean's Google Site
+          - {label: Slides (PDF), url: "https://drive.google.com/file/d/120apIJReLCyv3sC5Ff1wpnSVx-jyHNTy/view"}
+          - {label: "Video 1 · Intro and PINNs", url: "https://drive.google.com/file/d/123QlSdSCtw2QrO25jWL5HohaLFGjcqta/view"}
+          - {label: "Video 2 · Operator learning", url: "https://drive.google.com/file/d/12-_NUWv2JYxEhp5VmlwNLPT1LtiX_p8S/view"}
+          - {label: "Video 3 · Spatio-temporal forecasting", url: "https://drive.google.com/file/d/120x6Iq3Mw56oq6HbB8oSEmHw-NTlobTD/view"}
+          - {label: "Video 4 · Adjoint method", url: "https://drive.google.com/file/d/121RCE2w2AFV3UPFCxe6FUJRePvWdRw5p/view"}
+          - {label: "Video 5 · Differentiable physics", url: "https://drive.google.com/file/d/120Wsy4qWlrFwQM0syvMPYWc3LSNjkozA/view"}
+tutorials:
+  - year: 2026
+    title: "Physics-Informed Machine Learning: Methodology and Applications in Quality Science & Engineering"
+    event: QRST 2026, Chinese Academy of Sciences
+    note: Adapted from the IE 8534 course material.
+    material:
+      title: Tutorial slides
+      kicker: PDF · 67 slides
+      description: PINNs, operator learning (FNO, DeepONet), derivative-informed training of neural operators, and physics-informed machine learning for inverse problems viewed as PDE-constrained optimization.
+      url: /assets/teaching/qrst2026-piml-tutorial.pdf
+      thumb: /assets/img/teaching/qrst2026-tutorial-thumb.jpg
