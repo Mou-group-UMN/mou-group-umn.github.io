@@ -92,7 +92,7 @@ h3{font-size:19px;line-height:1.3}
 .news .b{flex:1;min-width:0;font-size:16px;line-height:1.55}
 .news .b ul{margin:.35em 0 0;padding-left:1.2em}.news .b ul li{margin:.15em 0}
 .news-fig{margin:12px 0 0;display:flex;flex-direction:column;gap:6px}
-.news-fig img{display:block;width:520px;max-width:100%;height:auto;border:1px solid var(--line);background:#fff}
+.news-fig img{display:block;width:520px;max-width:100%;height:auto;background:#fff}   /* no border (Sean, 2026-09-30) */
 .news-fig figcaption{font-size:13.5px;line-height:1.45;color:var(--muted)}
 
 /* website and video preview cards */
