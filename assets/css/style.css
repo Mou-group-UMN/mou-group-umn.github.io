@@ -54,3 +54,6 @@ h2{color:var(--maroon);margin-top:2.2em}
 /* video card: full-height thumb; hqdefault letterbox bars cropped; fallback label; 2-line description */
 .vc-thumb{align-self:stretch;min-height:99px}.vc-thumb img.lb{top:-17.6%;bottom:auto;height:135.2%}.vc-mark{position:absolute;left:10px;top:9px;font:700 13px/1 "Source Serif 4",Georgia,serif;letter-spacing:.05em;color:var(--gold)}.vc-desc{font-size:14px;color:var(--muted);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .pi img{object-fit:cover}
+/* phones: news date above the text; preview cards stack (image on top) so nothing overflows */
+.news li>div{min-width:0}
+@media(max-width:560px){.news li{grid-template-columns:1fr;gap:2px}.video-card,.link-card{flex-direction:column}.vc-thumb{width:100%;min-height:0;aspect-ratio:16/9}.link-card .lc-img{width:100%;height:auto;aspect-ratio:1.91/1}.link-card .lc-mark{width:auto;min-height:72px}}
