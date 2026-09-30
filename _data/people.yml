@@ -18,6 +18,7 @@ pi:
 phd:
   - {name: Chang He, role: Ph.D. Student, photo: chang-he.jpg}
   - {name: Deyi Kong, role: Ph.D. Student, photo: deyi-kong.jpg, web: "https://cse.umn.edu/isye/deyi-kong"}
+  - {name: Zhiping Li, role: Ph.D. Student, photo: zhiping-li.jpg}
   - {name: Robert Weber, role: Ph.D. Student, photo: robert-weber.jpg}
   - {name: Xinhan Yang, role: Ph.D. Student, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang"}
 masters: []
