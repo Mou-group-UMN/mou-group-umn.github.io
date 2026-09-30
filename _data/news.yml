@@ -1,4 +1,5 @@
 # News, newest first (includes everything from the old Google Site home page, merged 2026-09-29).
+# The homepage shows the last 6 months (this month and the 5 before it); /news/ lists everything.
 # date = "Mon YYYY"; type = Paper / Funding / Award / Talk / Workshop / Media / Service.
 # text may use simple HTML: <em>, <strong>, <a href="...">, <ul><li>.
 # Optional figure: image = path under /assets/img/ (shown only once that file exists), caption = one line under it; image_width = display width in px (default 520).

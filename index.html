@@ -36,7 +36,10 @@ description: The Mou Group, led by Shancong (Sean) Mou at the University of Minn
 
 <section class="h-news">
 <h2>News</h2>
-<ul class="news">{% for n in site.data.news %}{% include news-item.html n=n %}{% endfor %}</ul>
+{% comment %}Homepage news: this month and the 5 before it, counted when the site is built (every push rebuilds it). The script below also drops items that pass 6 months between rebuilds. Everything stays on /news/.{% endcomment %}{% assign mons = "jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec" | split: "," %}{% assign now_m = site.time | date: "%m" | plus: 0 %}{% assign now_i = site.time | date: "%Y" | times: 12 | plus: now_m %}
+<ul class="news">{% for n in site.data.news %}{% assign dp = n.date | downcase | split: " " %}{% assign nm = 0 %}{% for m in mons %}{% if m == dp[0] %}{% assign nm = forloop.index %}{% endif %}{% endfor %}{% assign ni = dp[1] | times: 12 | plus: nm %}{% assign age = now_i | minus: ni %}{% if age < 6 %}{% include news-item.html n=n %}{% endif %}{% endfor %}</ul>
+<p class="all-news"><a href="{{ '/news/' | relative_url }}">All news →</a></p>
+<script>(function(){var M="janfebmaraprmayjunjulaugsepoctnovdec",t=new Date(),now=t.getFullYear()*12+t.getMonth()+1;document.querySelectorAll(".h-news .news>li").forEach(function(li){var d=li.querySelector(".d"),p=d?d.textContent.trim().toLowerCase().split(/\s+/):[],k=M.indexOf(p[0]),y=+p[1];if(k>=0&&k%3===0&&y&&now-(y*12+k/3+1)>=6)li.remove();});})();</script>
 </section>
 
 </div>
