@@ -152,13 +152,22 @@ h3{font-size:19px;line-height:1.3}
 .pj-figs img{display:block;width:100%;height:auto;border:1px solid var(--line);background:#fff}
 .pj-figs figcaption{margin-top:6px;font-size:13.5px;line-height:1.45;color:var(--muted)}
 
-/* workshops */
-.ws-list{list-style:none;padding:0;margin:0}
-.ws-list li{padding:14px 0;border-bottom:1px solid var(--line-2)}
-.ws-meta{margin-top:2px;font:13px/1.6 var(--mono);color:var(--muted)}
-.ws-note{font-size:15px;margin-top:2px}
-.ws-latest h3{margin:.9em 0 .2em;font-size:22px}
-.ws-latest p{margin:.35em 0}
+/* workshops: cards like the "Prior Workshops" list on the VISION'26 site (banner on top, centered title) */
+.ws-cards{display:flex;flex-direction:column;gap:24px}
+.ws-card{display:block;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.05);text-decoration:none;color:inherit;transition:box-shadow .15s}
+.ws-card:hover{color:inherit;box-shadow:0 6px 22px rgba(0,0,0,.11)}
+.ws-card img{display:block;width:100%;height:auto;max-height:320px;object-fit:cover}
+.ws-body{display:flex;flex-direction:column;align-items:center;gap:6px;padding:26px 20px 28px;text-align:center}
+.ws-body p{margin:0}
+.ws-kicker{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ws-title{margin:0;font-size:20px;font-weight:600;line-height:1.35;color:var(--ink)}
+.ws-card.latest .ws-title{font-size:23px}
+.vi{color:#86bc25}   /* VISION green, as on the workshop sites */
+.ws-sub{font-size:16px}
+.ws-where{font-size:15.5px;color:#333}
+.ws-meta{font:13px/1.6 var(--mono);color:var(--muted)}
+.ws-note{max-width:720px;font-size:15px;line-height:1.5;color:var(--muted)}
+.ws-cards+p{margin-top:28px}
 
 /* footer */
 .site-footer{padding-bottom:40px;color:var(--muted);font-size:14px;line-height:1.6}
@@ -176,6 +185,7 @@ h3{font-size:19px;line-height:1.3}
   .openings{padding:20px}.ft{padding:20px 18px}
   .h-pi{grid-template-columns:112px minmax(0,1fr);gap:16px}.h-pi .pi-name{font-size:19px}
   .project{padding:4px 0 22px}.project h2{font-size:21px}
+  .ws-body{padding:18px 14px 20px}.ws-title{font-size:18px}.ws-card.latest .ws-title{font-size:19px}
   .news>li{flex-wrap:wrap;gap:2px 12px}.news .d,.news .t{width:auto}.news .b{flex-basis:100%}
   .link-card,.video-card{flex-direction:column}
   .vc-thumb{width:100%;min-height:0;aspect-ratio:16/9}

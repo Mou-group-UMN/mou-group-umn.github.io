@@ -1,5 +1,6 @@
 # VISION workshop series, newest first. The first entry is shown as "Latest Workshop";
 # the rest are listed under "Prior Workshops". role = Sean's role; highlights is optional.
+# banner = the edition's banner from the VISION'26 site's Prior Workshops list (self-hosted, 1600–1800 px wide).
 - edition: "VISION'26"
   conference: CVPR 2026
   ordinal: 4th
@@ -7,6 +8,7 @@
   date: "June 3, 2026"
   location: "Denver, Colorado"
   url: https://vision-workshop-26.github.io/cvpr-2026/
+  banner: /assets/img/workshops/vision26-banner.jpg
   role: Co-chair
   highlights: "Three tracks: general vision inspection, degraded X-ray image enhancement and reconstruction, and intelligent security screening with X-ray."
 - edition: "VISION'25"
@@ -15,6 +17,7 @@
   date: "October 19, 2025"
   location: "Honolulu, Hawaii"
   url: https://vision-workshop.github.io/iccv-2025/
+  banner: /assets/img/workshops/vision25-banner.jpg
   role: Co-chair
 - edition: "VISION'24"
   conference: ECCV 2024
@@ -22,6 +25,7 @@
   date: "September 30, 2024"
   location: "Milano, Italy"
   url: https://vision-based-industrial-inspection.github.io/eccv-24/
+  banner: /assets/img/workshops/vision24-banner.jpg
   role: Chair
   highlights: "Data challenge on one-shot industrial defect segmentation."
 - edition: "VISION'23"
@@ -30,5 +34,6 @@
   date: "June 19, 2023"
   location: "Vancouver, Canada"
   url: https://vision-based-industrial-inspection.github.io/cvpr-2023/
+  banner: /assets/img/workshops/vision23-banner.jpg
   role: Workshop and challenge organizer
   highlights: "Two data challenges: data-efficient defect detection and synthetic data generation for defect detection."
