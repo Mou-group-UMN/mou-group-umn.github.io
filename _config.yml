@@ -3,7 +3,7 @@ tagline: Learning, optimization and computation for complex engineering systems
 description: Learning, optimization and computation for complex engineering systems — University of Minnesota
 url: "https://mou-group-umn.github.io"
 baseurl: ""   # the repo is Mou-group-UMN/mou-group-umn.github.io, served at the domain root
-google_site_verification: ""   # Google Search Console "HTML tag" token (the content="..." value); adds the meta tag when set
+google_site_verification: "FOgrf8sLlGehZ-CBWnbOjZQleedXxxG8F7n4yWO-EA8"   # Google Search Console "HTML tag" token (the content="..." value); adds the meta tag when set
 email: mou00006@umn.edu
 pi: Shancong (Sean) Mou
 dept: Department of Industrial and Systems Engineering, University of Minnesota
