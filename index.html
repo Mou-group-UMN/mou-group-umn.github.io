@@ -1,12 +1,10 @@
 ---
 layout: default
 ---
-{% assign h = site.data.home %}{% assign latest = site.data.workshops | first %}
+{% assign h = site.data.home %}
 <div class="home">
-<div class="home-main">
 
-<section class="h-research">
-<h2>Research</h2>
+<section class="h-intro">
 <p class="statement">{{ h.statement }}</p>
 <div class="chips">{% for a in h.areas %}<a href="{{ '/research/' | relative_url }}#{{ a.key }}">{{ a.label }}</a>{% endfor %}</div>
 </section>
@@ -18,24 +16,11 @@ layout: default
 </section>
 
 <section class="h-news">
-<h2>Recent News</h2>
-<ul class="news">{% for n in site.data.news limit: h.news_count %}{% include news-item.html n=n %}{% endfor %}</ul>
-<a class="more" href="{{ '/news/' | relative_url }}">All news →</a>
+<h2>News</h2>
+<ul class="news">{% for n in site.data.news %}{% include news-item.html n=n %}{% endfor %}</ul>
 </section>
 
-</div>
-<aside class="home-side">
+{% capture logos %}{% for s in h.sponsors %}{% assign lf = site.static_files | where: "path", s.logo | first %}{% if lf %}{% if s.url %}<a href="{{ s.url }}">{% endif %}<img src="{{ s.logo | relative_url }}" alt="{{ s.name }}"{% if s.height %} style="height:{{ s.height }}px"{% endif %}>{% if s.url %}</a>{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% assign logos = logos | strip %}{% if logos != "" %}<section class="sponsors"><div class="eyebrow">Supported by</div><div class="logos">{{ logos }}</div></section>{% endif %}
 
-<div class="side-block">
-<div class="eyebrow">Latest workshop</div>
-<a class="side-ws" href="{{ latest.url }}">{{ latest.edition | replace: "'", "’" }} @ {{ latest.conference }}</a>
-<div class="side-note">{{ latest.ordinal }} workshop on Vision-based InduStrial InspectiON. {{ latest.date }}, {{ latest.location | split: "," | first }}.</div>
-</div>
-
-<div class="side-block">
-<div class="eyebrow">Supported by</div>
-<div class="side-list">{{ h.supported_by | join: "<br>" }}</div>
-</div>
-
-</aside>
 </div>

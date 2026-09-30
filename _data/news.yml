@@ -1,14 +1,12 @@
-# News, newest first. date = "Mon YYYY"; type = Paper / Funding / Award / Talk / Workshop.
-# text may use simple HTML: <em>, <strong>, <a href="...">.
-# Optional figure: image = path under /assets/img/ (e.g. /assets/img/news/x.jpg), caption = one line under it; image_width = display width in px (default 520).
+# News, newest first (includes everything from the old Google Site home page, merged 2026-09-29).
+# date = "Mon YYYY"; type = Paper / Funding / Award / Talk / Workshop / Media / Service.
+# text may use simple HTML: <em>, <strong>, <a href="...">, <ul><li>.
+# Optional figure: image = path under /assets/img/ (shown only once that file exists), caption = one line under it; image_width = display width in px (default 520).
 # Optional preview card: link = {url, site, title, description, mark or image}.
 # Optional video card: video = {url, site, title, description, mark, thumbnail}; shows "Video · <site>"; mark labels the thumbnail if the image can't load.
 - date: Sep 2026
   type: Talk
-  text: Visited Samsung Electronics to give an invited presentation on our GRO project.
-  image: /assets/img/research/hvac-operation-to-design.jpg
-  caption: 'Samsung GRO project: from energy-efficient operation to optimal HVAC design.'
-  image_width: 380
+  text: 'Visited Samsung Electronics to give an invited talk on our GRO project: “AI/ML Modeling + Large-scale Optimization for Large-scale Complex Engineering Systems.”'
 - date: Sep 2026
   type: Paper
   text: 'New paper accepted at <strong>NeurIPS 2027</strong>: “Derivative-Informed Training of Neural Operators On-the-Fly via Sketched Tangent Consistency.” <a href="https://arxiv.org/abs/2609.32797">arXiv</a>'
@@ -21,6 +19,9 @@
     description: 'IPAM, May 22, 2026 · Workshop IV: Multi-Fidelity Methods to Enable Robust Optimization and Real-Time Control of Fusion Processes'
     mark: IPAM
     thumbnail: https://i.ytimg.com/vi/qIc2hDKlwSo/hqdefault.jpg
+- date: Aug 2026
+  type: Award
+  text: Congratulations to our students on their awards:<ul><li>Xinhan Yang won the 2026–27 Robert E. Greiling, Jr. Scholarship for Graduate Studies in Renewable Energy.</li><li>Zhiping Li was named runner-up for the INFORMS Computing Society Student Paper Award.</li><li>Sylvia Liu won an Undergraduate Research Opportunities Program (UROP) Award ($1,800).</li><li>Deyi Kong won the 2026 General Education Endowment Scholarship from the International Society of Automation (ISA).</li></ul>
 - date: Jul 2026
   type: Funding
   text: 'Our group received an NSF award (#2608818, lead PI: Mou) for <em>Data Agent</em>: autonomous data quality evaluation, curation and task-aware dataset design for vision-based industrial inspection.'
@@ -29,20 +30,21 @@
   image_width: 560
 - date: Jul 2026
   type: Paper
-  text: 'New paper accepted by the <em>INFORMS Journal on Data Science</em>: “DISCO: Disentangling Signal Restoration and Corruption Identification via Sample-Wise Latent Low-Rank Similarity.” <a href="https://doi.org/10.1287/ijds.2026.0150">Paper</a>'
+  text: 'New paper accepted by the <em>INFORMS Journal on Data Science</em>: “DISCO: Disentangling Signal Restoration and Corruption Identification via Sample-Wise Latent Low-Rank Similarity.” <a href="https://doi.org/10.1287/ijds.2026.0150">Paper</a> Congratulations, Yifeng!'
   image: /assets/img/news/disco-figure1.jpg
   caption: DISCO’s autoencoder with sample-wise latent low-rank similarity (Wang et al., 2026).
 - date: Jun 2026
   type: Funding
-  text: An unrestricted gift from NVIDIA supports our research on HVAC system modeling and optimization.
+  text: An unrestricted gift from NVIDIA supports our research on HVAC system modeling and optimization. Many thanks to the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a>!
 - date: Jun 2026
   type: Paper
-  text: 'New paper accepted at <strong>ICML 2026</strong>: “Natural Hypergradient Descent: Algorithm Design, Convergence Analysis, and Parallel Implementation.” <a href="https://arxiv.org/abs/2602.10905">arXiv</a>'
+  text: 'New paper accepted at <strong>ICML 2026</strong>: “Natural Hypergradient Descent: Algorithm Design, Convergence Analysis, and Parallel Implementation.” <a href="https://arxiv.org/abs/2602.10905">arXiv</a> Congratulations, Deyi!'
   image: /assets/img/news/nhgd-figure1.png
   caption: 'NHGD’s parallel design: inner-level SGD on one device, synchronous hypergradient approximation on another (Kong et al., 2026).'
 - date: Jun 2026
   type: Workshop
-  text: Co-chaired VISION’26 at CVPR 2026 (June 3, Denver).
+  text: Co-chaired VISION’26 at CVPR 2026 (Wednesday, June 3, Colorado Convention Center, Denver).
+  image: /assets/img/news/vision26-cvpr.jpg
   link:
     url: https://vision-workshop-26.github.io/cvpr-2026/
     site: vision-workshop-26.github.io
@@ -52,34 +54,88 @@
     image: https://vision-workshop-26.github.io/cvpr-2026/assets/imgs/vision_26_logo_share.png
 - date: Apr 2026
   type: Talk
-  text: Guest lecture at Virginia Tech on decomposition-based anomaly detection.
+  text: Guest lecture on smart manufacturing at Virginia Tech about decomposition-based anomaly detection, at the invitation of <a href="https://www.ise.vt.edu/people/faculty/zhong-yuhao.html">Dr. Yuhao Zhong</a> (<a href="https://drive.google.com/file/d/1hbkG9YeIjX-n5U_hur0B7ic8HstXb3jT/view?usp=drive_link">slides</a>).
 - date: Apr 2026
   type: Funding
-  text: Samsung Global Research Outreach (GRO) award renewed for Year 2.
+  text: Our Samsung Global Research Outreach (GRO) award, “Neural Refrigeration Cycle Network enabled Optimal Control of Closed-loop Fluid Infrastructure System,” was renewed for Year 2. We are grateful to Samsung for their continued support of this work toward energy-efficient infrastructure.
 - date: Mar 2026
   type: Award
   text: Inaugural Best Reviewer Award, <em>IISE Transactions</em>.
 - date: Jan 2026
   type: Award
-  text: Selected as an IPAM Mid-Career Fellow for Multi-Fidelity Methods for Fusion Energy.
+  text: Selected as a Mid-Career Fellow of the Institute for Pure and Applied Mathematics (IPAM) for its long program <a href="https://www.ipam.ucla.edu/programs/long-programs/multi-fidelity-methods-for-fusion-energy/">Multi-Fidelity Methods for Fusion Energy</a>.
 - date: Oct 2025
   type: Award
-  text: Deyi Kong was selected as a finalist for the INFORMS QSR Best Student Paper Award.
+  text: '<a href="https://cse.umn.edu/isye/deyi-kong">Deyi Kong</a> was selected as a finalist for the INFORMS QSR Best Student Paper Award for her paper “Natural Hypergradient Descent: Algorithm Design, Convergence Analysis, and Parallel Implementation,” presented at the INFORMS Annual Meeting in Atlanta on October 26. This is Deyi’s first Ph.D. work. Congratulations, Deyi!'
 - date: Oct 2025
   type: Paper
-  text: 'Our paper was selected for the <em>Applied Probability</em> Collection: October 2025 Queueing Models. <a href="https://arxiv.org/abs/2006.06150">arXiv</a>'
+  text: 'Our paper “Heavy-Traffic Queue Length Behavior in a Switch under Markovian Arrivals” was selected for the Applied Probability Collection <a href="https://www.cambridge.org/core/journals/advances-in-applied-probability/collections/october-2025-queueing-models">October 2025: Queueing Models</a>, one of ten articles chosen from the <em>Journal of Applied Probability</em> and <em>Advances in Applied Probability</em>. Congratulations to Prof. <a href="https://sites.google.com/site/sivatheja/">Siva Theja Maguluri</a>!'
 - date: Oct 2025
   type: Workshop
-  text: VISION’25 at ICCV 2025 (October 19, Honolulu).
+  text: Co-chaired <a href="https://vision-workshop.github.io/iccv-2025/">VISION’25</a> at ICCV 2025 (Sunday, October 19, Hawai‘i Convention Center, Honolulu).
+  image: /assets/img/news/vision25-iccv.jpg
 - date: Jun 2025
   type: Funding
-  text: NVIDIA computing credits gift for the Big VISION project.
+  text: 'NVIDIA gifted computing credits to support our project Big VISION: Advancing Data Quality for Vision-Based Industrial Inspection. Many thanks to the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a>!'
 - date: Apr 2025
   type: Award
-  text: Sean received the Sigma Xi Best Ph.D. Thesis Award, Georgia Tech.
+  text: Sean received the <a href="https://bpb-us-e1.wpmucdn.com/sites.gatech.edu/dist/0/283/files/2025/03/2025-Sigma-Xi-Research-Award-Winners.pdf">Sigma Xi Best Ph.D. Thesis Award</a> from Georgia Tech, which recognizes ten outstanding dissertations each year across all majors.
+- date: Mar 2025
+  type: Talk
+  text: Invited visit to Samsung and presentation on AI/ML-enabled quality, efficiency and productivity improvement in complex engineering systems.
+- date: Feb 2025
+  type: Talk
+  text: Invited presentation at the UMN Data Science Initiative <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">Seed Grant Showcase &amp; Spotlight</a> on the <a href="https://sites.google.com/view/shancongmou/funded-projects">Big VISION Initiative</a>, which is building a large-scale dataset and an industry–academia forum for vision-based industrial inspection (VISION).
+  image: /assets/img/news/big-vision-seed-grant.jpg
 - date: Jan 2025
   type: Award
-  text: Yifeng Wang's physics-informed neural ODE paper won the 2025 SPES + Q&amp;P Student Paper Competition.
+  text: Our paper <a href="https://www.tandfonline.com/doi/full/10.1080/24725854.2024.2408546">Physics-Informed Neural ODE with Heterogeneous Control Inputs (PINOHI) for Quality Prediction of Composite Adhesive Joints</a> won the <a href="https://community.amstat.org/spes/outreach/studentpapercompetition">2025 SPES + Q&amp;P Student Paper Competition</a>. Yifeng will present it in a special topic-contributed session at JSM 2025 in Nashville. Congratulations, Yifeng!
+- date: Jan 2025
+  type: Talk
+  text: 'Invited talk “Physics-Informed Learning: Methodology and Applications in Engineering Design and Optimal Control” at Apple DMLI Weekly Sharing.'
 - date: Nov 2024
   type: Funding
-  text: Samsung Global Research Outreach (GRO) award ($150k) for HVAC energy efficiency.
+  text: We are honored to receive the <a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> ($150k) to leverage AI/ML for improving HVAC system efficiency.
+- date: Nov 2024
+  type: Award
+  text: Congratulations to Michele Nguyen on winning an <a href="https://ugresearch.umn.edu/opportunities/urop">Undergraduate Research Opportunities Program (UROP)</a> Award!
+- date: Oct 2024
+  type: Talk
+  text: Invited talk “AI/ML Enabled Quality &amp; Productivity Improvement of Advanced Manufacturing Systems” at the <a href="https://ammn24.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=188">Medical Design &amp; Manufacturing (MD&amp;M) Conference</a> (Wednesday, October 16, Minneapolis Convention Center).
+- date: Sep 2024
+  type: Workshop
+  text: Co-chaired <a href="https://vision-based-industrial-inspection.github.io/eccv-24/">VISION’24</a> at <a href="https://eccv2024.ecva.net/">ECCV 2024</a> (Monday, September 30, Tower Lounge, MiCo Milano).
+  image: /assets/img/news/vision24-eccv.jpg
+- date: Sep 2024
+  type: Paper
+  text: 'New paper accepted by <em>IISE Transactions</em>: “<a href="https://doi.org/10.1080/24725854.2024.2408546">Physics-Informed Neural ODE with Heterogeneous Control Inputs (PINOHI) for Quality Prediction of Composite Adhesive Joints</a>.” Congratulations, Yifeng!'
+- date: Sep 2024
+  type: Award
+  text: Invited to join the Tomorrow’s Leaders Program of <a href="https://www.advancedmanufacturingminneapolis.com/en/education/career-connections.html">Advanced Manufacturing Minneapolis</a>.
+- date: Sep 2024
+  type: Talk
+  text: Invited talk “AI/ML-Enabled Data Fusion for Complex Engineering Systems” at the <a href="https://cse.umn.edu/dsi/cse-dsi-machine-learning-seminar-series">CSE DSI Machine Learning Seminar</a>, University of Minnesota.
+- date: Aug 2024
+  type: Paper
+  text: 'New preprint on arXiv: “<a href="https://arxiv.org/abs/2408.16201">Uni-3DAD: GAN-Inversion Aided Universal 3D Anomaly Detection on Model-free Products</a>.”'
+- date: Jun 2024
+  type: Award
+  text: Invited talk “Distributional-Assumption-Free Robust Learning for Fine-Grained Anomaly Detection” at the Natrella Session of the <a href="https://uwaterloo.ca/joint-research-conference-statistics-quality-industry-technology/">Joint Research Conference</a>, an award session for recipients of the <a href="https://community.amstat.org/qp/scholarshipsawards/marygandjosephnatrellascholarship">Mary G. and Joseph Natrella Scholarship</a>.
+- date: May 2024
+  type: Media
+  text: 'Star Wars Day interview with Georgia Tech ISyE: <a href="https://www.isye.gatech.edu/news/galactic-jedi-fusing-star-wars-passion-problem-solving-machine-learning-advancements">May the 4th be with you!</a>'
+- date: Apr 2024
+  type: Workshop
+  text: We are organizing <a href="https://vision-based-industrial-inspection.github.io/eccv-24/">VISION’24</a>, the 2nd workshop on Vision-based InduStrial InspectiON, at <a href="https://eccv2024.ecva.net/">ECCV 2024</a>, with a call for papers and a data challenge.
+- date: Nov 2023
+  type: Paper
+  text: 'New paper accepted by <em>Advances in Applied Probability</em>: “<a href="https://www.cambridge.org/core/journals/advances-in-applied-probability/article/abs/heavytraffic-queue-length-behavior-in-a-switch-under-markovian-arrivals/4D6D5FFB87A60446561E316DA4B5BA34">Heavy Traffic Queue Length Behavior in a Switch under Markovian Arrivals</a>” (<a href="https://arxiv.org/abs/2006.06150">arXiv</a>).'
+- date: Jun 2023
+  type: Workshop
+  text: Organized <a href="https://vision-based-industrial-inspection.github.io/cvpr-2023/">VISION’23</a>, the 1st workshop on Vision-based InduStrial InspectiON, at CVPR 2023, and co-organized its data challenge competition.
+- date: Jun 2023
+  type: Award
+  text: Our paper <a href="https://arxiv.org/abs/2302.12464">RGI</a> received the Best Track Paper Award of the Quality Control and Reliability Engineering (QCRE) Division, IISE 2023.
+- date: Jun 2023
+  type: Service
+  text: Sean continues as a student board member of the <a href="https://www.iise.org/details.aspx?id=898">Quality Control &amp; Reliability Engineering (QCRE) Division of IISE</a> for the 2023–2024 term.
