@@ -5,10 +5,6 @@ statement: >-
   learning (modeling), large-scale optimization (algorithms) and computational science (efficient
   implementation), with applications in vision-based industrial inspection, advanced manufacturing, energy
   systems and more.
-areas:   # labels under the statement (plain labels since the Research page was replaced by Funded Projects; key is unused)
-  - {key: robust, label: "Robust learning & anomaly detection"}
-  - {key: design, label: "Physics-informed machine learning"}
-  - {key: stochastic, label: "Stochastic systems & optimization"}
 openings:
   title: We are recruiting Ph.D. students
   text: >-
