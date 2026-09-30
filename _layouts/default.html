@@ -9,16 +9,19 @@
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
 <div class="strip"><div class="wrap">University of Minnesota · Industrial and Systems Engineering</div></div>
-<header class="masthead"><div class="wrap">
+<div class="masthead"><div class="wrap">
   <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-text"><span class="wordmark">{{ site.title }}</span><span class="tagline">{{ site.tagline }}</span></span></a>
   <a class="mh-cta" href="{{ '/join/' | relative_url }}">Ph.D. openings →</a>
-</div></header>
+</div></div>
+</header>
 <nav class="nav" aria-label="Main"><div class="wrap"><div class="navbar">
   <input type="checkbox" id="nt" class="nt"><label for="nt" class="burger">Menu</label>
-  <div class="links">{% for n in site.nav %}<a href="{{ n.url | relative_url }}"{% if page.url == n.url %} class="on"{% endif %}>{{ n.title }}</a>{% endfor %}</div>
+  <div class="links">{% for n in site.nav %}<a href="{{ n.url | relative_url }}"{% if page.url == n.url %} class="on" aria-current="page"{% endif %}>{{ n.title }}</a>{% endfor %}</div>
 </div></div></nav>
-<main class="wrap">
+<main class="wrap" id="main">
 {% if page.title and page.url != "/" %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
 {{ content }}
 </main>

@@ -32,14 +32,21 @@ img{max-width:100%}
 .nav a:hover{color:var(--maroon)}
 .nav a.on{color:var(--maroon);box-shadow:inset 0 -3px 0 var(--maroon)}
 .nt,.burger{display:none}
+.navbar{position:relative}
 @media(max-width:840px){   /* menu collapses below 840px; the 7-item menu is 771px wide with "Funded Projects" */
   .burger{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 14px;cursor:pointer;font:500 13px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase}
   .burger::before{content:"\2630";font-size:18px}
   .nav .links{display:none;flex-direction:column;min-height:0;margin:0;padding-bottom:8px}
   .nt:checked~.links{display:flex}
+  .nt{display:block;position:absolute;top:0;left:0;width:1px;height:1px;margin:0;opacity:0}   /* focusable, so the menu opens with Tab + Space */
+  .nt:focus-visible+.burger{outline:2px solid var(--maroon);outline-offset:-3px}
   .nav a{padding:10px 14px}.nav a.on{box-shadow:none}
 }
 main.wrap{padding-top:56px;padding-bottom:72px}
+/* accessibility helpers */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip-link{position:absolute;left:-9999px;top:8px;z-index:10;padding:8px 14px;background:#fff;color:var(--maroon);border:2px solid var(--maroon);font:500 14px/1.4 var(--mono)}
+.skip-link:focus{left:16px}
 
 /* type */
 h1,h2,h3{font-family:var(--sans);font-weight:600;line-height:1.25;letter-spacing:-.005em;color:var(--ink)}
@@ -57,7 +64,7 @@ h3{font-size:19px;line-height:1.3}
 .chips a:hover{border-color:var(--maroon);color:var(--maroon)}
 .openings{display:flex;flex-direction:column;gap:10px;padding:24px 28px;background:var(--soft);border-top:3px solid var(--gold)}
 .openings .eyebrow{color:var(--maroon)}
-.openings h3{margin:0;font-size:23px;line-height:1.25}
+.openings h2{margin:0;font-size:23px;line-height:1.25}
 .openings p{margin:0;font-size:16px;line-height:1.6}
 .em{font:500 15px/1 var(--mono);color:var(--maroon);text-decoration:none}.em:hover{text-decoration:underline}
 .h-news{display:flex;flex-direction:column;gap:8px}
@@ -128,6 +135,7 @@ h3{font-size:19px;line-height:1.3}
 .pi{display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:start}
 .pi img,.pi .ph{width:200px;height:200px;border-radius:0;object-fit:cover;margin:0}
 .pi-links{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 1em;font:500 13px/1.6 var(--mono)}
+.pi-links a{display:inline-block;padding:2px 0}   /* 24px+ tap targets (WCAG 2.5.8) */
 .former{padding-left:1.2em}.former li{margin:.3em 0}
 @media(max-width:640px){.pi{grid-template-columns:1fr}}
 
@@ -188,7 +196,7 @@ h3{font-size:19px;line-height:1.3}
 .ws-kicker{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .ws-title{margin:0;font-size:20px;font-weight:600;line-height:1.35;color:var(--ink)}
 .ws-card.latest .ws-title{font-size:23px}
-.vi{color:#86bc25}   /* VISION green, as on the workshop sites */
+.vi{color:#5b8019}   /* VISION green, darkened from the workshop sites' #86bc25 to pass WCAG AA contrast (4.6:1) */
 .ws-sub{font-size:16px}
 .ws-where{font-size:15.5px;color:#333}
 .ws-meta{font:13px/1.6 var(--mono);color:var(--muted)}
