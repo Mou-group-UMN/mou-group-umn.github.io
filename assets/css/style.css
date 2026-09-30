@@ -13,7 +13,7 @@ body{margin:0;font:16px/1.6 var(--sans);color:var(--ink);background:#fff}
 a{color:var(--maroon)}a:hover{color:var(--maroon-2)}
 strong,b{font-weight:600}
 img{max-width:100%}
-.wrap{max-width:1200px;margin:0 auto;padding:0 40px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}   /* fixed maximum width: 1092px of content, like the Lu group site */
 .muted{color:var(--muted)}
 .eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 
@@ -23,22 +23,21 @@ img{max-width:100%}
 .masthead .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px 24px;padding-top:32px;padding-bottom:28px}
 .brand{display:flex;align-items:center;gap:20px;color:inherit;text-decoration:none}
 .brand:hover{color:inherit}
-.mark{width:76px;height:76px;flex-shrink:0;display:grid;place-items:center;background:var(--maroon);color:var(--gold);font:600 46px/1 var(--cond)}
 .wordmark{display:block;font:600 46px/1 var(--cond);letter-spacing:-.01em;color:var(--maroon)}
 .tagline{display:block;margin-top:6px;font-size:16px;line-height:1.4;color:var(--muted)}
 .mh-cta{font:500 13px/1.4 var(--mono);letter-spacing:.02em;white-space:nowrap}
-.nav{background:var(--soft);border-top:1px solid var(--line);border-bottom:3px solid var(--gold)}
-.nav .links{display:flex;min-height:50px;margin:0 -14px}
+.navbar{background:var(--soft);border-top:1px solid var(--line);border-bottom:3px solid var(--gold)}
+.nav .links{display:flex;min-height:50px}
 .nav a{display:flex;align-items:center;padding:0 14px;color:var(--ink);text-decoration:none;font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase}
 .nav a:hover{color:var(--maroon)}
 .nav a.on{color:var(--maroon);box-shadow:inset 0 -3px 0 var(--maroon)}
 .nt,.burger{display:none}
 @media(max-width:760px){
-  .burger{display:flex;align-items:center;gap:10px;min-height:48px;cursor:pointer;font:500 13px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+  .burger{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 14px;cursor:pointer;font:500 13px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase}
   .burger::before{content:"\2630";font-size:18px}
   .nav .links{display:none;flex-direction:column;min-height:0;margin:0;padding-bottom:8px}
   .nt:checked~.links{display:flex}
-  .nav a{padding:10px 0}.nav a.on{box-shadow:none}
+  .nav a{padding:10px 14px}.nav a.on{box-shadow:none}
 }
 main.wrap{padding-top:56px;padding-bottom:72px}
 
@@ -49,7 +48,7 @@ h2{font-size:24px;margin:1.8em 0 .6em}
 h3{font-size:19px;line-height:1.3}
 
 /* homepage: two columns (776 + 280 at full width) */
-.home{display:grid;grid-template-columns:minmax(0,776px) 280px;justify-content:space-between;gap:64px;align-items:start}
+.home{display:grid;grid-template-columns:minmax(0,1fr) 272px;gap:56px;align-items:start}
 .home-main{display:flex;flex-direction:column;gap:44px;min-width:0}
 .home h2{margin:0;font-size:30px;line-height:1.2;letter-spacing:-.01em}
 .h-research{display:flex;flex-direction:column;gap:14px}
@@ -138,8 +137,8 @@ h3{font-size:19px;line-height:1.3}
 .ws-latest p{margin:.35em 0}
 
 /* footer */
-.site-footer{background:var(--soft);border-top:3px solid var(--maroon);color:var(--muted);font-size:14px;line-height:1.6}
-.site-footer .wrap{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px 24px;padding-top:30px;padding-bottom:30px}
+.site-footer{padding-bottom:40px;color:var(--muted);font-size:14px;line-height:1.6}
+.ft{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px 24px;padding:26px 28px;background:var(--soft);border-top:3px solid var(--maroon)}
 .ft-name{font-weight:600;color:var(--ink)}
 
 /* phones */
@@ -147,10 +146,10 @@ h3{font-size:19px;line-height:1.3}
   .wrap{padding:0 16px}
   .strip .wrap{padding-top:8px;padding-bottom:8px;font-size:11px}
   .masthead .wrap{padding-top:22px;padding-bottom:20px}
-  .brand{gap:14px}.mark{width:56px;height:56px;font-size:34px}.wordmark{font-size:34px}.tagline{font-size:14px}
+  .wordmark{font-size:34px}.tagline{font-size:14px}
   main.wrap{padding-top:36px;padding-bottom:56px}
   .home h2{font-size:26px}.page-title{font-size:28px}.statement{font-size:17px;line-height:1.6}
-  .openings{padding:20px}
+  .openings{padding:20px}.ft{padding:20px 18px}
   .news li{flex-wrap:wrap;gap:2px 12px}.news .d,.news .t{width:auto}.news .b{flex-basis:100%}
   .link-card,.video-card{flex-direction:column}
   .vc-thumb{width:100%;min-height:0;aspect-ratio:16/9}
