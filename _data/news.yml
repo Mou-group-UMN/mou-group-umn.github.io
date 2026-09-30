@@ -1,6 +1,7 @@
 # News, newest first. date = "Mon YYYY"; type = Paper / Funding / Award / Talk / Workshop.
 # text may use simple HTML: <em>, <strong>, <a href="...">.
 # Optional figure: image = path under /assets/img/ (e.g. /assets/img/news/x.jpg), caption = one line under it; image_width = display width in px (default 520).
+# Optional preview card: link = {url, site, title, description, mark or image}.
 - date: Sep 2026
   type: Talk
   text: Visited Samsung Electronics to give an invited presentation on our GRO project.
@@ -28,9 +29,17 @@
 - date: Jun 2026
   type: Paper
   text: 'New paper accepted at <strong>ICML 2026</strong>: “Natural Hypergradient Descent: Algorithm Design, Convergence Analysis, and Parallel Implementation.” <a href="https://arxiv.org/abs/2602.10905">arXiv</a>'
+  image: /assets/img/news/nhgd-figure1.png
+  caption: 'NHGD’s parallel design: inner-level SGD on one device, synchronous hypergradient approximation on another (Kong et al., 2026).'
 - date: Jun 2026
   type: Workshop
   text: Co-chaired VISION’26 at CVPR 2026 (June 3, Denver).
+  link:
+    url: https://vision-workshop-26.github.io/cvpr-2026/
+    site: vision-workshop-26.github.io
+    title: 4th Workshop on Vision-based InduStrial InspectiON (VISION) @ CVPR 2026
+    description: Vision-Based Industrial Inspection Across Modalities (Surface, X-ray, 3D & More). Denver, Colorado.
+    mark: VISION ’26
 - date: Apr 2026
   type: Talk
   text: Guest lecture at Virginia Tech on decomposition-based anomaly detection.
