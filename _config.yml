@@ -1,19 +1,19 @@
 title: Mou Group
+tagline: Learning, optimization and computation for complex engineering systems
 description: Learning, optimization and computation for complex engineering systems — University of Minnesota
 url: "https://mou-group-umn.github.io"
 baseurl: ""   # if the repo stays named "mou-group.github.io", set this to "/mou-group.github.io"
 email: mou00006@umn.edu
 pi: Shancong (Sean) Mou
 dept: Department of Industrial and Systems Engineering, University of Minnesota
+address: 111 Church St SE, Minneapolis, MN 55455
 markdown: kramdown
-nav:
+nav:   # the Classic layout's 7 pages (Software and Photos are unpublished for now: published: false)
   - {title: Home, url: /}
-  - {title: People, url: /people/}
   - {title: Research, url: /research/}
   - {title: Publications, url: /publications/}
+  - {title: People, url: /people/}
   - {title: Workshops, url: /workshops/}
   - {title: Teaching, url: /teaching/}
-  - {title: Software, url: /software/}
-  - {title: Photos, url: /photos/}
   - {title: Join Us, url: /join/}
 exclude: [README.md]

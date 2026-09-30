@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false   # hidden until there is content; add back to the nav in _config.yml
 title: Software & Datasets
 permalink: /software/
 ---

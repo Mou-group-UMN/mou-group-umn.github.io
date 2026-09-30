@@ -1,0 +1,27 @@
+# Homepage content (Classic layout, direction A). The page itself is index.html.
+statement: >-
+  The Mou Group develops learning, optimization and computational methods for complex engineering systems,
+  with the goal of improving their quality, productivity and efficiency. Our work draws on modern machine
+  learning (modeling), large-scale optimization (algorithms) and computational science (efficient
+  implementation), with applications in vision-based industrial inspection, advanced manufacturing, energy
+  systems and more.
+areas:   # chips under the statement; key = the area's anchor on the Research page
+  - {key: robust, label: "Robust learning & anomaly detection"}
+  - {key: design, label: "Physics-informed machine learning"}
+  - {key: stochastic, label: "Stochastic systems & optimization"}
+openings:
+  title: We are recruiting Ph.D. students
+  text: >-
+    Students in statistics, mathematics, computer science, engineering or related majors with proficient
+    coding skills are welcome to apply. Please email Prof. Mou at
+    <a class="em" href="mailto:mou00006@umn.edu">mou00006@umn.edu</a> with your CV, plus transcripts or
+    sample publications if available. Current UMN students and remote research assistants are also welcome
+    to reach out.
+news_count: 14   # news items on the homepage; all items are on /news/
+pi_lines: [Assistant Professor, Industrial and Systems Engineering, University of Minnesota]
+links:   # swap the CV link for the PDF once it is in assets/
+  - {label: CV, url: "https://sites.google.com/view/shancongmou/cv"}
+  - {label: Google Scholar, url: "https://scholar.google.com/citations?user=y2CYLbMAAAAJ&hl=en"}
+  - {label: GitHub, url: "https://github.com/Shancong-Mou"}
+  - {label: ISyE faculty page, url: "https://cse.umn.edu/isye/shancong-mou"}
+supported_by: [National Science Foundation, Samsung, NVIDIA, Apple, The Boeing Company, UMN Data Science Initiative, OG Technologies]

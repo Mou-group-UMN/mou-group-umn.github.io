@@ -26,6 +26,7 @@
   text: 'Our group received an NSF award (#2608818, lead PI: Mou) for <em>Data Agent</em>: autonomous data quality evaluation, curation and task-aware dataset design for vision-based industrial inspection.'
   image: /assets/img/research/data-agent-overview.png
   caption: 'NSF Data Agent project: dataset screening, curation and task-aware design.'
+  image_width: 560
 - date: Jul 2026
   type: Paper
   text: 'New paper accepted by the <em>INFORMS Journal on Data Science</em>: “DISCO: Disentangling Signal Restoration and Corruption Identification via Sample-Wise Latent Low-Rank Similarity.” <a href="https://doi.org/10.1287/ijds.2026.0150">Paper</a>'

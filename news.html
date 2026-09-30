@@ -1,0 +1,6 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+<ul class="news">{% for n in site.data.news %}{% include news-item.html n=n %}{% endfor %}</ul>

@@ -10,19 +10,21 @@
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-<header class="site-header">
-  <div class="wrap bar">
-    <a class="brand" href="{{ '/' | relative_url }}"><span class="mark">M</span><span><strong>Mou Group</strong><small>University of Minnesota</small></span></a>
-    <input type="checkbox" id="nt" class="nt"><label for="nt" class="burger" aria-label="Menu">&#9776;</label>
-    <nav>{% for n in site.nav %}<a href="{{ n.url | relative_url }}" {% if page.url == n.url %}class="on"{% endif %}>{{ n.title }}</a>{% endfor %}</nav>
-  </div>
-</header>
+<div class="strip"><div class="wrap">University of Minnesota · Industrial and Systems Engineering</div></div>
+<header class="masthead"><div class="wrap">
+  <a class="brand" href="{{ '/' | relative_url }}"><span class="mark" aria-hidden="true">M</span><span class="brand-text"><span class="wordmark">{{ site.title }}</span><span class="tagline">{{ site.tagline }}</span></span></a>
+  <a class="mh-cta" href="{{ '/join/' | relative_url }}">Ph.D. openings →</a>
+</div></header>
+<nav class="nav" aria-label="Main"><div class="wrap">
+  <input type="checkbox" id="nt" class="nt"><label for="nt" class="burger">Menu</label>
+  <div class="links">{% for n in site.nav %}<a href="{{ n.url | relative_url }}"{% if page.url == n.url %} class="on"{% endif %}>{{ n.title }}</a>{% endfor %}</div>
+</div></nav>
 <main class="wrap">
 {% if page.title and page.url != "/" %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
 {{ content }}
 </main>
 <footer class="site-footer"><div class="wrap">
-  <p><strong>{{ site.title }}</strong> · {{ site.dept }}<br>111 Church St SE, Minneapolis, MN 55455 · <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-  <p class="muted">&copy; {{ 'now' | date: '%Y' }} Mou Group</p>
+  <div><div class="ft-name">{{ site.title }} · {{ site.dept | replace: ", ", " · " }}</div><div>{{ site.address }} · <a href="mailto:{{ site.email }}">{{ site.email }}</a></div></div>
+  <div>&copy; {{ 'now' | date: '%Y' }} Mou Group</div>
 </div></footer>
 </body></html>
