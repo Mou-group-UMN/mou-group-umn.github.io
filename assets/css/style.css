@@ -152,7 +152,7 @@ h3{font-size:19px;line-height:1.3}
 .pj-meta ul{margin:0;padding-left:1.1em}.pj-meta li{margin:.15em 0}.pj-meta p{margin:0}
 .pj-figs{display:flex;flex-wrap:wrap;align-items:flex-start;gap:22px 28px;margin-top:20px}
 .pj-figs figure{margin:0;max-width:100%}
-.pj-figs img{display:block;width:100%;height:auto;border:1px solid var(--line);background:#fff}
+.pj-figs img{display:block;width:100%;height:auto;background:#fff}   /* no border: the sections are on white since c6b84de (Sean, 2026-09-30) */
 .pj-figs figcaption{margin-top:6px;font-size:13.5px;line-height:1.45;color:var(--muted)}
 
 /* teaching */

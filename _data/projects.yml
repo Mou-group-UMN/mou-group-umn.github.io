@@ -10,8 +10,6 @@
     - '<a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> ($150K/yr)'
     - '<a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a> Award'
   figures:
-    - {image: /assets/img/projects/hvac-system.png, width: 280, caption: HVAC system}
-    - {image: /assets/img/projects/hvac-bottom-up.png, width: 660, caption: Bottom-up physics-informed modeling strategy + global optimal control}
     - {image: /assets/img/research/hvac-operation-to-design.jpg, width: 600, caption: 'From energy-efficient operation to optimal HVAC design: physics-informed learning for large-scale HVAC systems.'}
 - id: big-vision
   short: Big VISION
