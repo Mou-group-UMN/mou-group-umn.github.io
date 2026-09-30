@@ -5,12 +5,11 @@ pi:
   role: Assistant Professor, Industrial and Systems Engineering
   photo: shancong-mou.jpg
   email: mou00006@umn.edu
-  links:   # shown under the PI's name on the People page
+  links:   # shown under the PI's name on the People page and in the homepage PI block
     - {label: CV (PDF), url: /assets/cv/Shancong_Mou_CV.pdf}   # copy of My Drive/CV/CV/main.pdf; replace the file to update
     - {label: Google Scholar, url: "https://scholar.google.com/citations?user=y2CYLbMAAAAJ&hl=en"}
     - {label: GitHub, url: "https://github.com/Shancong-Mou"}
     - {label: ISyE faculty page, url: "https://cse.umn.edu/isye/shancong-mou"}
-    - {label: Personal website, url: "https://sites.google.com/view/shancongmou"}
   bio: >-
     Sean Mou received his Ph.D. in Industrial Engineering from the H. Milton Stewart School of Industrial and
     Systems Engineering at Georgia Tech (2024), advised by Prof. Jianjun Shi. He also holds an M.S. in
