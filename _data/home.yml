@@ -5,7 +5,7 @@ statement: >-
   learning (modeling), large-scale optimization (algorithms) and computational science (efficient
   implementation), with applications in vision-based industrial inspection, advanced manufacturing, energy
   systems and more.
-areas:   # chips under the statement; key = the area's anchor on the Research page
+areas:   # labels under the statement (plain labels since the Research page was replaced by Funded Projects; key is unused)
   - {key: robust, label: "Robust learning & anomaly detection"}
   - {key: design, label: "Physics-informed machine learning"}
   - {key: stochastic, label: "Stochastic systems & optimization"}
@@ -17,6 +17,10 @@ openings:
     <a class="em" href="mailto:mou00006@umn.edu">mou00006@umn.edu</a> with your CV, plus transcripts or
     sample publications if available. Current UMN students and remote research assistants are also welcome
     to reach out.
+pi:   # right-hand block next to the statement and openings, above News; name, email and links come from _data/people.yml (pi)
+  photo: shancong-mou-portrait.jpg   # in assets/img/people/, 7:8
+  lines: [Assistant Professor, Industrial and Systems Engineering, University of Minnesota]
+projects_lead: Our research is supported by the National Science Foundation, Samsung, NVIDIA and the University of Minnesota Data Science Initiative.   # first line of the Funded Projects page
 sponsors:   # "Supported by" logo row at the bottom of the homepage; a logo shows once its file exists in the repo
   - {name: National Science Foundation, logo: /assets/img/sponsors/nsf.png, url: "https://www.nsf.gov/", height: 60}
   - {name: NVIDIA, logo: /assets/img/sponsors/nvidia.png, url: "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/", height: 34}

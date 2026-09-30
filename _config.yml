@@ -10,7 +10,7 @@ address: 111 Church St SE, Minneapolis, MN 55455
 markdown: kramdown
 nav:   # the Classic layout's 7 pages (Software and Photos are unpublished for now: published: false)
   - {title: Home, url: /}
-  - {title: Research, url: /research/}
+  - {title: Funded Projects, url: /projects/}   # replaced Research (research.html is unpublished)
   - {title: Publications, url: /publications/}
   - {title: People, url: /people/}
   - {title: VISION Workshop, url: /workshops/}

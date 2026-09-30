@@ -1,12 +1,15 @@
 ---
 layout: default
 ---
-{% assign h = site.data.home %}
+{% assign h = site.data.home %}{% assign pi = site.data.people.pi %}
 <div class="home">
+
+<div class="h-top">
+<div class="h-main">
 
 <section class="h-intro">
 <p class="statement">{{ h.statement }}</p>
-<div class="chips">{% for a in h.areas %}<a href="{{ '/research/' | relative_url }}#{{ a.key }}">{{ a.label }}</a>{% endfor %}</div>
+<div class="chips">{% for a in h.areas %}<span>{{ a.label }}</span>{% endfor %}</div>
 </section>
 
 <section id="openings" class="openings">
@@ -14,6 +17,19 @@ layout: default
 <h3>{{ h.openings.title }}</h3>
 <p>{{ h.openings.text }}</p>
 </section>
+
+</div>
+<aside class="h-pi" aria-label="Principal investigator">
+<img src="{{ '/assets/img/people/' | append: h.pi.photo | relative_url }}" alt="{{ pi.name }}">
+<div class="h-pi-text">
+<div class="eyebrow">Principal Investigator</div>
+<a class="pi-name" href="{{ '/people/' | relative_url }}">{{ pi.name }}</a>
+<div class="pi-role">{{ h.pi.lines | join: "<br>" }}</div>
+<a class="pi-email" href="mailto:{{ pi.email }}">{{ pi.email }}</a>
+<div class="pi-links">{% for l in pi.links %}<a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label }}</a>{% endfor %}</div>
+</div>
+</aside>
+</div>
 
 <section class="h-news">
 <h2>News</h2>

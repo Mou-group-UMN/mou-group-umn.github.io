@@ -1,0 +1,34 @@
+# Funded Projects page (projects.html), shown in this order. Text fields may contain HTML.
+# id = the section's anchor (#id); short = its label in the jump list at the top of the page.
+# figures: image (an /assets/img/… path), caption, width = display width in px on wide screens
+# (figures shrink to fit on phones; figures that don't fit next to each other wrap to a new row).
+- id: hvac
+  short: Samsung GRO · HVAC control
+  title: Neural Refrigeration Cycle Network enabled Optimal Control of Closed-loop Fluid Infrastructure System
+  text: '<strong>Goal:</strong> physics-informed, learning-based controllers for next-generation, energy-efficient control of HVAC systems.'
+  funding:
+    - '<a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> ($150K/yr)'
+    - '<a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a> Award'
+  figures:
+    - {image: /assets/img/projects/hvac-system.png, width: 280, caption: HVAC system}
+    - {image: /assets/img/projects/hvac-bottom-up.png, width: 660, caption: Bottom-up physics-informed modeling strategy + global optimal control}
+    - {image: /assets/img/research/hvac-operation-to-design.jpg, width: 600, caption: 'From energy-efficient operation to optimal HVAC design: physics-informed learning for large-scale HVAC systems.'}
+- id: big-vision
+  short: Big VISION
+  title: Big VISION Initiative
+  text: '<strong>Goal:</strong> develop a large-scale vision-based industrial inspection dataset, along with methodology for (1) large-scale manufacturing data sourcing, screening and quality control, (2) automated fine-grained manufacturing annotation with human feedback, and (3) downstream task-aware dataset design.'
+  funding:
+    - 'UMN Data Science Initiative ($200K; <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">DSI news coverage</a>)'
+    - '<a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a> Award'
+    - 'NSF OAC <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2608818">#2608818</a>'
+  figures:
+    - {image: /assets/img/projects/big-vision.png, width: 720, alt: 'Big VISION Initiative: what it is, key points and road map', caption: 'Big VISION at UMN: a large-scale AI dataset, an industry–academia forum and a global platform for vision-based industrial inspection.'}
+- id: data-agent
+  short: NSF Data-Agent
+  title: 'Data-Agent: Agentic AI for Autonomous Data Quality Evaluation, Curation and Task-Aware Dataset Design for Vision-Based Industrial Inspection'
+  text: 'Industrial inspection is critical to ensuring the safety, reliability, and quality of manufactured products and complex engineering systems, yet advances in AI-enabled inspection are often limited by the availability of high-quality, well-curated data. This NSF-funded project will develop Data-Agent, an agentic AI-powered methodological and software platform for data-centric AI in vision-based industrial inspection. Data-Agent will provide integrated capabilities for automatically evaluating the quality of large and heterogeneous inspection datasets, improving annotations through human feedback, and designing task-aware datasets that are representative and informative for downstream inspection tasks. Building on the <a href="https://vision-workshop-26.github.io/cvpr-2026/">VISION Workshop series</a>, an established community for advancing computer vision and AI for industrial inspection, the project will also release VISION V2, together with open-source software, benchmarks, tutorials, and training resources. Through these efforts, the project aims to foster a broader community of researchers, students, and industry practitioners and advance more trustworthy and effective AI systems for advanced manufacturing.'
+  funding:
+    - 'National Science Foundation, CSSI <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2608818">#2608818</a> ($600K total, $400K to UMN)'
+  team: Sean Mou (PI), with co-PIs Zirui Liu and Yinan Wang
+  figures:
+    - {image: /assets/img/research/data-agent-overview.png, width: 900, caption: 'Data-Agent’s three thrusts: VLM-agent dataset screening, foundation-model label curation and task-aware dataset design.'}

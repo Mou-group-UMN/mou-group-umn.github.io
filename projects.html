@@ -1,0 +1,18 @@
+---
+layout: default
+title: Funded Projects
+permalink: /projects/
+---
+<p class="pj-lead">{{ site.data.home.projects_lead }}</p>
+<div class="chips pj-jump">{% for p in site.data.projects %}<a href="#{{ p.id }}">{{ p.short }}</a>{% endfor %}</div>
+{% for p in site.data.projects %}
+<section class="project" id="{{ p.id }}">
+<h2>{{ p.title }}</h2>
+<div class="pj-text"><p>{{ p.text }}</p></div>
+<div class="pj-meta">
+<div><div class="eyebrow">Funded by</div><ul>{% for f in p.funding %}<li>{{ f }}</li>{% endfor %}</ul></div>
+{% if p.team %}<div><div class="eyebrow">Team</div><p>{{ p.team }}</p></div>{% endif %}
+</div>
+{% if p.figures %}<div class="pj-figs">{% for f in p.figures %}<figure{% if f.width %} style="width:{{ f.width }}px"{% endif %}><img src="{{ f.image | relative_url }}" alt="{{ f.alt | default: f.caption }}">{% if f.caption %}<figcaption>{{ f.caption }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}
+</section>
+{% endfor %}
