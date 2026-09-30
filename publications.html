@@ -3,7 +3,6 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
-<p class="muted">See also <a href="https://sites.google.com/view/shancongmou/research">Sean's research page</a>. <strong>Bold</strong> = group PI.</p>
 {% assign pending = site.data.publications | where_exp: "p", "p.status != nil" %}
 {% if pending.size > 0 %}<h2>Under Review and Working Papers</h2><ol class="pubs">{% for p in pending %}{% include pub.html p=p %}{% endfor %}</ol>{% endif %}
 {% assign published = site.data.publications | where_exp: "p", "p.status == nil" %}
