@@ -15,7 +15,10 @@ pi:
     Systems Engineering at Georgia Tech (2024), advised by Prof. Jianjun Shi. He also holds an M.S. in
     Computational Science and Engineering from Georgia Tech and a B.Eng. in Energy and Power Engineering from
     Xi'an Jiaotong University.
+section_notes:   # optional note after a section heading on the People page, shown in parentheses
+  phd: working or collaborating with the Mou Group
 phd:
+  - {name: Zewei Deng, role: Ph.D. Student, photo: zewei-deng.jpg}
   - {name: Chang He, role: Ph.D. Student, photo: chang-he.jpg}
   - {name: Deyi Kong, role: Ph.D. Student, photo: deyi-kong.jpg, web: "https://cse.umn.edu/isye/deyi-kong"}
   - {name: Zhiping Li, role: Ph.D. Student, photo: zhiping-li.jpg}
