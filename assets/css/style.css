@@ -62,9 +62,10 @@ h3{font-size:19px;line-height:1.3}
 .em{font:500 15px/1 var(--mono);color:var(--maroon);text-decoration:none}.em:hover{text-decoration:underline}
 .h-news{display:flex;flex-direction:column;gap:8px}
 .h-news h2{margin-bottom:6px}
-.sponsors{display:flex;flex-direction:column;gap:16px;padding-top:28px;border-top:1px solid var(--line)}
+.sponsors{display:flex;flex-direction:column;gap:14px}   /* "Supported by" row, under the openings box (Sean, 2026-09-30) */
 .logos{display:flex;flex-wrap:wrap;align-items:center;gap:24px 44px}
-.logos img{display:block;height:56px;width:auto;max-width:240px;object-fit:contain}
+.logos img{display:block;height:var(--h,56px);width:auto;max-width:240px;object-fit:contain}   /* --h: per-logo height from home.yml */
+@media(max-width:560px){.logos{gap:18px 28px}.logos img{height:calc(var(--h,56px) * .72)}}
 
 /* homepage top: statement and openings on the left, the PI on the right, above News */
 .h-top{display:grid;grid-template-columns:minmax(0,1fr) 272px;gap:56px;align-items:start}
