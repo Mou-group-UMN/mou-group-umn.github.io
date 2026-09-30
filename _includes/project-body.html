@@ -1,0 +1,6 @@
+{% assign pb = include.p %}<div class="pj-text">{% if pb.text %}<p>{{ pb.text }}</p>{% endif %}</div>
+<div class="pj-meta">
+<div><div class="eyebrow">Funded by</div><ul>{% for f in pb.funding %}<li>{{ f }}</li>{% endfor %}</ul></div>
+{% if pb.team %}<div><div class="eyebrow">Team</div><p>{{ pb.team }}</p></div>{% endif %}
+</div>
+<div class="pj-figs">{% for f in pb.figures %}<figure{% if f.width %} style="width:{{ f.width }}px"{% endif %}><a href="{{ f.image | relative_url }}"><img src="{{ f.image | relative_url }}" alt="{{ f.alt | default: f.caption }}"></a>{% if f.caption %}<figcaption>{{ f.caption }}</figcaption>{% endif %}</figure>{% endfor %}</div>

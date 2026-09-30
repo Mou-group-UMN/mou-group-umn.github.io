@@ -8,11 +8,11 @@ permalink: /projects/
 {% for p in site.data.projects %}
 <section class="project" id="{{ p.id }}">
 <h2>{{ p.title }}</h2>
-<div class="pj-text"><p>{{ p.text }}</p></div>
-<div class="pj-meta">
-<div><div class="eyebrow">Funded by</div><ul>{% for f in p.funding %}<li>{{ f }}</li>{% endfor %}</ul></div>
-{% if p.team %}<div><div class="eyebrow">Team</div><p>{{ p.team }}</p></div>{% endif %}
+{% if p.parts %}{% if p.text %}<div class="pj-text"><p>{{ p.text }}</p></div>{% endif %}
+<div class="pj-parts">{% for q in p.parts %}
+<article class="pj-part" id="{{ q.id }}"><h3>{{ q.title }}</h3>
+{% include project-body.html p=q %}</article>{% endfor %}
 </div>
-{% if p.figures %}<div class="pj-figs">{% for f in p.figures %}<figure{% if f.width %} style="width:{{ f.width }}px"{% endif %}><img src="{{ f.image | relative_url }}" alt="{{ f.alt | default: f.caption }}">{% if f.caption %}<figcaption>{{ f.caption }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}
+{% else %}{% include project-body.html p=p %}{% endif %}
 </section>
 {% endfor %}

@@ -155,6 +155,14 @@ h3{font-size:19px;line-height:1.3}
 .pj-figs figure{margin:0;max-width:100%}
 .pj-figs img{display:block;width:100%;height:auto;background:#fff}   /* no border: the sections are on white since c6b84de (Sean, 2026-09-30) */
 .pj-figs figcaption{margin-top:6px;font-size:13.5px;line-height:1.45;color:var(--muted)}
+.pj-figs:empty,.pj-text:empty{display:none}
+.pj-figs a{display:block;cursor:zoom-in}   /* figures open full size */
+/* parts: sub-projects side by side in one section, each column flowing on its own */
+.pj-parts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 48px;align-items:start;margin-top:4px}
+.pj-part{min-width:0;padding-top:14px;border-top:1px solid var(--line-2);scroll-margin-top:12px}
+.pj-part h3{margin:0 0 10px;font-size:19px;line-height:1.35}
+.pj-part .pj-meta{gap:12px 40px}
+@media(max-width:760px){.pj-parts{grid-template-columns:1fr}}
 
 /* teaching */
 .tc-list{list-style:none;margin:0;padding:0}
