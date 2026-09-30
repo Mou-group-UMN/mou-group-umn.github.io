@@ -13,7 +13,7 @@ nav:   # the Classic layout's 7 pages (Software and Photos are unpublished for n
   - {title: Research, url: /research/}
   - {title: Publications, url: /publications/}
   - {title: People, url: /people/}
-  - {title: Workshops, url: /workshops/}
+  - {title: VISION Workshop, url: /workshops/}
   - {title: Teaching, url: /teaching/}
   - {title: Join Us, url: /join/}
 exclude: [README.md]
