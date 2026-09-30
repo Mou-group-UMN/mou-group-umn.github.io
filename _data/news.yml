@@ -18,7 +18,7 @@
     title: Shancong Mou - Derivative-Informed Training of Neural Operators on the Fly
     description: 'IPAM, May 22, 2026 · Workshop IV: Multi-Fidelity Methods to Enable Robust Optimization and Real-Time Control of Fusion Processes'
     mark: IPAM
-    thumbnail: https://i.ytimg.com/vi/qIc2hDKlwSo/hqdefault.jpg
+    thumbnail: /assets/img/news/ipam-talk-thumb.jpg   # frame from the talk video (YouTube maxresdefault), self-hosted
 - date: Aug 2026
   type: Award
   text: Congratulations to our students on their awards:<ul><li>Xinhan Yang won the 2026–27 Robert E. Greiling, Jr. Scholarship for Graduate Studies in Renewable Energy.</li><li>Zhiping Li was named runner-up for the INFORMS Computing Society Student Paper Award.</li><li>Sylvia Liu won an Undergraduate Research Opportunities Program (UROP) Award.</li><li>Deyi Kong won the 2026 General Education Endowment Scholarship from the International Society of Automation (ISA).</li></ul>
@@ -44,15 +44,14 @@
 - date: Jun 2026
   type: Workshop
   text: Co-chaired VISION’26 at CVPR 2026 (Wednesday, June 3, Colorado Convention Center, Denver).
-  image: /assets/img/news/vision26-cvpr.jpg
-  caption: CVPR 2026, Denver, Colorado
   link:
     url: https://vision-workshop-26.github.io/cvpr-2026/
     site: vision-workshop-26.github.io
     title: 4th Workshop on Vision-based InduStrial InspectiON (VISION) @ CVPR 2026
     description: Vision-Based Industrial Inspection Across Modalities (Surface, X-ray, 3D & More). Denver, Colorado.
     mark: VISION ’26
-    image: https://vision-workshop-26.github.io/cvpr-2026/assets/imgs/vision_26_logo_share.png
+    image: /assets/img/news/vision26-share.jpg   # the site's own share image (og:image), self-hosted
+    large: true   # show the share image in full above the title
 - date: Apr 2026
   type: Talk
   text: Guest lecture on smart manufacturing at Virginia Tech about decomposition-based anomaly detection, at the invitation of <a href="https://www.ise.vt.edu/people/faculty/zhong-yuhao.html">Dr. Yuhao Zhong</a> (<a href="https://drive.google.com/file/d/1hbkG9YeIjX-n5U_hur0B7ic8HstXb3jT/view?usp=drive_link">slides</a>).
