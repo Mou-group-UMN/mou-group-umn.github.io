@@ -2,7 +2,7 @@
 # text may use simple HTML: <em>, <strong>, <a href="...">.
 # Optional figure: image = path under /assets/img/ (e.g. /assets/img/news/x.jpg), caption = one line under it; image_width = display width in px (default 520).
 # Optional preview card: link = {url, site, title, description, mark or image}.
-# Optional video card: video = {url, title, channel, thumbnail}.
+# Optional video card: video = {url, site, title, description, mark, thumbnail}; shows "Video · <site>"; mark labels the thumbnail if the image can't load.
 - date: Sep 2026
   type: Talk
   text: Visited Samsung Electronics to give an invited presentation on our GRO project.
@@ -15,9 +15,11 @@
   image: /assets/img/news/stcl-overview.png
   caption: sTCL enforces tangent consistency from the known PDE during training, with no offline derivative labels.
   video:
-    url: https://www.youtube.com/watch?v=qIc2hDKlwSo
-    title: Shancong Mou - Derivative-Informed Training of Neural Operators on the Fly - IPAM at UCLA
-    channel: IPAM at UCLA
+    url: https://www.mathinstitutes.org/videos/24847
+    site: mathinstitutes.org
+    title: Shancong Mou - Derivative-Informed Training of Neural Operators on the Fly
+    description: 'IPAM, May 22, 2026 · Workshop IV: Multi-Fidelity Methods to Enable Robust Optimization and Real-Time Control of Fusion Processes'
+    mark: IPAM
     thumbnail: https://i.ytimg.com/vi/qIc2hDKlwSo/hqdefault.jpg
 - date: Jul 2026
   type: Funding
