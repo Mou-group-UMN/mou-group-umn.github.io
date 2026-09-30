@@ -7,7 +7,7 @@ permalink: /people/
 <h2>Principal Investigator</h2>
 <div class="pi">
   {% if pi.photo != "" %}<img src="{{ '/assets/img/people/' | append: pi.photo | relative_url }}" alt="{{ pi.name }}">{% else %}<div class="ph">SM</div>{% endif %}
-  <div><h3 style="margin-top:0">{{ pi.name }}</h3><p class="muted">{{ pi.role }}<br><a href="mailto:{{ pi.email }}">{{ pi.email }}</a> · <a href="{{ pi.web }}">Personal site</a></p><p>{{ pi.bio }}</p></div>
+  <div><h3 style="margin-top:0">{{ pi.name }}</h3><p class="muted">{{ pi.role }}<br>University of Minnesota</p><div class="pi-links"><a href="mailto:{{ pi.email }}">{{ pi.email }}</a>{% for l in pi.links %}<a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label }}</a>{% endfor %}</div><p>{{ pi.bio }}</p></div>
 </div>
 {% assign groups = "phd:Ph.D. Students,masters:Master's Students,undergrads:Undergraduate Researchers,students:Students,postdocs:Postdocs" | split: "," %}
 {% for g in groups %}{% assign kv = g | split: ":" %}{% assign key = kv[0] %}{% assign list = site.data.people[key] %}

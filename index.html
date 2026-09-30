@@ -26,18 +26,6 @@ layout: default
 </div>
 <aside class="home-side">
 
-<div class="pi-card">
-<img src="{{ '/assets/img/people/shancong-mou-portrait.jpg' | relative_url }}" alt="{{ site.pi }}">
-<div class="pi-name">{{ site.pi }}</div>
-<div class="pi-role">{{ h.pi_lines | join: "<br>" }}</div>
-<a class="pi-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-</div>
-
-<div class="side-block side-links">
-<div class="eyebrow">Links</div>
-{% for l in h.links %}<a href="{{ l.url }}">{{ l.label }}</a>
-{% endfor %}</div>
-
 <div class="side-block">
 <div class="eyebrow">Latest workshop</div>
 <a class="side-ws" href="{{ latest.url }}">{{ latest.edition | replace: "'", "’" }} @ {{ latest.conference }}</a>

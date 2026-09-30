@@ -18,10 +18,4 @@ openings:
     sample publications if available. Current UMN students and remote research assistants are also welcome
     to reach out.
 news_count: 14   # news items on the homepage; all items are on /news/
-pi_lines: [Assistant Professor, Industrial and Systems Engineering, University of Minnesota]
-links:   # swap the CV link for the PDF once it is in assets/
-  - {label: CV, url: "https://sites.google.com/view/shancongmou/cv"}
-  - {label: Google Scholar, url: "https://scholar.google.com/citations?user=y2CYLbMAAAAJ&hl=en"}
-  - {label: GitHub, url: "https://github.com/Shancong-Mou"}
-  - {label: ISyE faculty page, url: "https://cse.umn.edu/isye/shancong-mou"}
 supported_by: [National Science Foundation, Samsung, NVIDIA, Apple, The Boeing Company, UMN Data Science Initiative, OG Technologies]
