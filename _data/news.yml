@@ -2,6 +2,7 @@
 # text may use simple HTML: <em>, <strong>, <a href="...">.
 # Optional figure: image = path under /assets/img/ (e.g. /assets/img/news/x.jpg), caption = one line under it; image_width = display width in px (default 520).
 # Optional preview card: link = {url, site, title, description, mark or image}.
+# Optional video card: video = {url, title, channel, thumbnail}.
 - date: Sep 2026
   type: Talk
   text: Visited Samsung Electronics to give an invited presentation on our GRO project.
@@ -13,6 +14,11 @@
   text: 'New paper accepted at <strong>NeurIPS 2027</strong>: “Derivative-Informed Training of Neural Operators On-the-Fly via Sketched Tangent Consistency.” <a href="https://arxiv.org/abs/2609.32797">arXiv</a>'
   image: /assets/img/news/stcl-overview.png
   caption: sTCL enforces tangent consistency from the known PDE during training, with no offline derivative labels.
+  video:
+    url: https://www.youtube.com/watch?v=qIc2hDKlwSo
+    title: Shancong Mou - Derivative-Informed Training of Neural Operators on the Fly - IPAM at UCLA
+    channel: IPAM at UCLA
+    thumbnail: https://i.ytimg.com/vi/qIc2hDKlwSo/hqdefault.jpg
 - date: Jul 2026
   type: Funding
   text: 'Our group received an NSF award (#2608818, lead PI: Mou) for <em>Data Agent</em>: autonomous data quality evaluation, curation and task-aware dataset design for vision-based industrial inspection.'
@@ -40,6 +46,7 @@
     title: 4th Workshop on Vision-based InduStrial InspectiON (VISION) @ CVPR 2026
     description: Vision-Based Industrial Inspection Across Modalities (Surface, X-ray, 3D & More). Denver, Colorado.
     mark: VISION ’26
+    image: https://vision-workshop-26.github.io/cvpr-2026/assets/imgs/vision_26_logo_share.png
 - date: Apr 2026
   type: Talk
   text: Guest lecture at Virginia Tech on decomposition-based anomaly detection.
