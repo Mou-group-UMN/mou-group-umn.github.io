@@ -1,4 +1,4 @@
-# Teaching page (teaching.html). Schools, courses and tutorials show in this order.
+# Teaching page (teaching.html). Schools, courses, and tutorials and guest lectures show in this order.
 # Per course: code, title, terms, optional role, note (HTML), links [{label, url}] and material
 # (a slide-preview card: title, kicker, description, url, thumb; url/thumb may be /assets/... paths).
 schools:
@@ -51,3 +51,13 @@ tutorials:
       description: PINNs, operator learning (FNO, DeepONet), derivative-informed training of neural operators, and physics-informed machine learning for inverse problems viewed as PDE-constrained optimization.
       url: /assets/teaching/qrst2026-piml-tutorial.pdf
       thumb: /assets/img/teaching/qrst2026-tutorial-thumb.jpg
+  - year: 2026
+    title: "Decomposition-Based Anomaly Detection: RPCA, Robust GAN Inversion, and Beyond"
+    event: Guest lecture on smart manufacturing, Virginia Tech, April 2026
+    note: 'At the invitation of <a href="https://www.ise.vt.edu/people/faculty/zhong-yuhao.html">Dr. Yuhao Zhong</a>.'
+    material:
+      title: Lecture slides
+      kicker: PDF · 38 slides
+      description: RPCA and decomposition-based anomaly detection, additive tensor decomposition and compressed smooth sparse decomposition, robust GAN inversion (RGI, R-RGI), Uni-3DAD for 3D point clouds, and the VISION workshop and datasets.
+      url: /assets/teaching/vt-smart-mfg-guest-lecture-2026.pdf
+      thumb: /assets/img/teaching/vt-guest-lecture-thumb.jpg
