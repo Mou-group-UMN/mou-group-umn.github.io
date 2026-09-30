@@ -24,15 +24,15 @@ phd:
   - {name: Zhiping Li, role: Ph.D. Student, photo: zhiping-li.jpg}
   - {name: Robert Weber, role: Ph.D. Student, photo: robert-weber.jpg}
   - {name: Xinhan Yang, role: Ph.D. Student, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang"}
-masters: []
-undergrads: []
-students:   # roles to confirm with Sean, then move each person to masters or undergrads
-  - {name: Siyu (Sylvia) Liu, photo: siyu-liu.jpg}
-  - {name: Chenxu Qiu Yau, photo: chenxu-qiu-yau.jpg}
-  - {name: Parth Rana, photo: parth-rana.jpg}
-  - {name: Yuxuan Zhao, photo: yuxuan-zhao.jpg}
+masters:
+  - {name: Chenxu Qiu, role: "Master's Student", photo: chenxu-qiu.jpg}
+undergrads:
+  - {name: Siyu (Sylvia) Liu, role: Undergraduate Researcher, photo: siyu-liu.jpg}
+  - {name: Yuxuan Zhao, role: Undergraduate Researcher, photo: yuxuan-zhao.jpg}
+highschool:
+  - {name: Parth Rana, role: High School Student, photo: parth-rana.jpg}
+students: []   # anyone whose role is still to confirm (shown under "Students")
 postdocs: []
 former:
-  - {name: Wan Wang, role: "Master's student"}
+  - {name: Wan Wang, role: "Master's student", note: now at Huawei}
   - {name: Michele Nguyen, role: Undergraduate researcher, note: UROP Award recipient}
-  - {name: Yit Xiaang Ztang, role: Undergraduate researcher}
