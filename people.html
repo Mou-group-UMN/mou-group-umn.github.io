@@ -12,9 +12,9 @@ permalink: /people/
 </div>
 {% assign groups = "phd:Ph.D. Students,masters:Master's Students,undergrads:Undergraduate Researchers,highschool:High School Students,students:Students,postdocs:Postdocs" | split: "," %}
 {% for g in groups %}{% assign kv = g | split: ":" %}{% assign key = kv[0] %}{% assign list = site.data.people[key] %}
-{% if list.size > 0 %}{% assign sn = site.data.people.section_notes[key] %}<h2>{{ kv[1] }}{% if sn %} <span class="h2-note">({{ sn }})</span>{% endif %}</h2><div class="grid">{% for m in list %}
-<div class="card">{% if m.photo and m.photo != "" %}<img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="{{ m.name }}">{% else %}<div class="ph">{{ m.name | slice: 0 }}</div>{% endif %}<h3>{{ m.name }}</h3>{% if m.role %}<p>{{ m.role }}</p>{% endif %}{% if m.cadv %}<p class="cadv">{{ m.cadv }}</p>{% endif %}{% if m.edu %}<p class="edu">{% for e in m.edu %}<span>{{ e }}</span>{% endfor %}</p>{% endif %}{% if m.research %}<p class="research">{{ m.research }}</p>{% endif %}{% if m.web %}<p><a href="{{ m.web }}">Website</a></p>{% endif %}</div>
-{% endfor %}</div>{% endif %}{% endfor %}
+{% if list.size > 0 %}{% assign sn = site.data.people.section_notes[key] %}<h2>{{ kv[1] }}{% if sn %} <span class="h2-note">({{ sn }})</span>{% endif %}</h2><ul class="plist">{% for m in list %}
+<li class="prow">{% if m.photo and m.photo != "" %}<img class="pphoto" src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="{{ m.name }}">{% else %}<div class="pphoto ph">{{ m.name | slice: 0 }}</div>{% endif %}<div class="pbody"><h3>{{ m.name }}</h3><p class="pmeta">{{ m.role }}{% if m.since %} · since {{ m.since }}{% endif %}</p>{% if m.cadv %}<p class="cadv">{{ m.cadv }}</p>{% endif %}{% if m.edu %}<p class="edu">{{ m.edu | join: " · " }}</p>{% endif %}{% if m.research %}<p class="research">{{ m.research }}</p>{% endif %}{% if m.web %}<p class="pweb"><a href="{{ m.web }}">Website</a></p>{% endif %}</div></li>
+{% endfor %}</ul>{% endif %}{% endfor %}
 {% assign former = site.data.people.former %}
 {% if former.size > 0 %}<h2>Former Members</h2>
 <ul class="former">{% for m in former %}<li><strong>{{ m.name }}</strong>, {{ m.role }}{% if m.note %} ({{ m.note }}){% endif %}</li>{% endfor %}</ul>{% endif %}

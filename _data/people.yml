@@ -1,6 +1,7 @@
 # People page data. photo = a file in assets/img/people/ ("" shows a placeholder).
 # Sections show in this order; an empty section is hidden.
-# Card fields: name, role, photo, optional cadv (advisor or co-advisor line), edu (list of degree lines), research (one line), web.
+# Each person is one row on the People page: name, role, photo, and optionally since (start month, e.g. Sep 2023),
+# cadv (advisor or co-advisor line), edu (list of degrees), research (one line) and web (a link shown as "Website").
 pi:
   name: Shancong (Sean) Mou
   role: Assistant Professor, Industrial and Systems Engineering
@@ -18,13 +19,13 @@ pi:
     Xi'an Jiaotong University.
 section_notes:   # optional note after a section heading on the People page, shown in parentheses
   phd: working or collaborating with the Mou Group
-phd:
-  - {name: Zewei Deng, role: Ph.D. Student, photo: zewei-deng.jpg, cadv: Co-advised with Prof. Liyan Xie, edu: ["B.S., University of Illinois Urbana-Champaign", "M.S., University of Chicago"], research: Large language models}
-  - {name: Chang He, role: Ph.D. Student, photo: chang-he.jpg, cadv: Advised by Prof. Shuzhong Zhang, research: Collaborating with us on large-scale optimization for physics-informed machine learning and related problems}
-  - {name: Deyi Kong, role: Ph.D. Student, photo: deyi-kong.jpg, web: "https://cse.umn.edu/isye/deyi-kong", edu: ["B.S., Wuhan University"], research: Large-scale (bilevel) optimization for learning and decision making}
-  - {name: Zhiping Li, role: Ph.D. Student, photo: zhiping-li.jpg, edu: ["B.S. and M.S., Fudan University"], research: "Current project: surrogate-model bilevel optimization for sensor placement, mixed-integer programming"}
-  - {name: Robert Weber, role: Ph.D. Student, photo: robert-weber.jpg, edu: ["B.S., University of Minnesota"], research: Industrial AI and agentic AI}
-  - {name: Xinhan Yang, role: Ph.D. Student, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang", research: Physics-informed learning and its applications in energy systems}
+phd:   # most senior first (start date), as Sean ordered them on 2026-10-01
+  - {name: Deyi Kong, role: Ph.D. Student, since: Sep 2024, photo: deyi-kong.jpg, web: "https://cse.umn.edu/isye/deyi-kong", edu: ["B.S., Wuhan University"], research: Large-scale (bilevel) optimization for learning and decision making}
+  - {name: Xinhan Yang, role: Ph.D. Student, since: Sep 2025, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang", research: Physics-informed learning and its applications in energy systems}
+  - {name: Zewei Deng, role: Ph.D. Student, since: Sep 2025, photo: zewei-deng.jpg, cadv: Co-advised with Prof. Liyan Xie, edu: ["B.S., University of Illinois Urbana-Champaign", "M.S., University of Chicago"], research: Large language models}
+  - {name: Chang He, role: Ph.D. Student, since: Sep 2026, photo: chang-he.jpg, cadv: Advised by Prof. Shuzhong Zhang, research: Collaborating with us on large-scale optimization for physics-informed machine learning and related problems}
+  - {name: Zhiping Li, role: Ph.D. Student, since: Sep 2026, photo: zhiping-li.jpg, edu: ["B.S. and M.S., Fudan University"], research: "Current project: surrogate-model bilevel optimization for sensor placement, mixed-integer programming"}
+  - {name: Robert Weber, role: Ph.D. Student, since: Sep 2026, photo: robert-weber.jpg, edu: ["B.S., University of Minnesota"], research: Industrial AI and agentic AI}
 masters: []
 undergrads:
   - {name: Siyu (Sylvia) Liu, role: Undergraduate Researcher, photo: siyu-liu.jpg}
