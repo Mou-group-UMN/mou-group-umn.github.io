@@ -8,11 +8,11 @@
 # funding_label = heading over the funding list (default "Funded by").
 - id: hvac
   short: Samsung GRO · HVAC control
-  amount: "$150K/yr · $300K total"
+  amount: "$150K/yr · renewed for Year 2"
   title: Neural Refrigeration Cycle Network enabled Optimal Control of Closed-loop Fluid Infrastructure System
   text: '<strong>Goal:</strong> physics-informed, learning-based controllers for next-generation, energy-efficient control of HVAC systems.'
   funding:
-    - '<a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> (awarded 2024, renewed for Year 2 in 2026; $150K/yr, $300K total)'
+    - '<a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> (awarded 2024; $150K/yr; renewed for Year 2 in 2026, Year 3 renewal pending)'
   figures:
     - {image: /assets/img/research/hvac-operation-to-design.jpg, width: 600, caption: 'From energy-efficient operation to optimal HVAC design: physics-informed learning for large-scale HVAC systems.'}
 - id: agentic-ai
