@@ -25,7 +25,7 @@ phd:   # most senior first (start date), as Sean ordered them on 2026-10-01
   - {name: Zewei Deng, role: Ph.D. Student, since: Sep 2025, photo: zewei-deng.jpg, cadv: Co-advised with Prof. Liyan Xie, edu: ["B.S., University of Illinois Urbana-Champaign", "M.S., University of Chicago"], research: Large language models}
   - {name: Chang He, role: Ph.D. Student, since: Sep 2026, photo: chang-he.jpg, cadv: Advised by Prof. Shuzhong Zhang, research: Collaborating with us on large-scale optimization for physics-informed machine learning and related problems}
   - {name: Zhiping Li, role: Ph.D. Student, since: Sep 2026, photo: zhiping-li.jpg, edu: ["B.S. and M.S., Fudan University"], research: "Current project: surrogate-model bilevel optimization for sensor placement, mixed-integer programming"}
-  - {name: Robert Weber, role: Ph.D. Student, since: Sep 2026, photo: robert-weber.jpg, edu: ["B.S., University of Minnesota"], research: Industrial AI and agentic AI}
+  - {name: Robert Weber, role: Ph.D. Student, since: Sep 2026, photo: robert-weber.jpg, edu: ["B.S., University of Minnesota"], research: Industrial AI and agentic AI for advanced manufacturing}
 masters: []
 undergrads:
   - {name: Siyu (Sylvia) Liu, role: Undergraduate Researcher, photo: siyu-liu.jpg}
