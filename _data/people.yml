@@ -1,7 +1,7 @@
 # People page data. photo = a file in assets/img/people/ ("" shows a placeholder).
 # Sections show in this order; an empty section is hidden.
 # Each person is one row on the People page: name, role, photo, and optionally since (start month, e.g. Sep 2023),
-# cadv (advisor or co-advisor line), edu (list of degrees), research (one line) and web (a link shown as "Website").
+# cadv (advisor or co-advisor line), award (a gold badge), edu (list of degrees), research (one line) and web (a link shown as "Website").
 pi:
   name: Shancong (Sean) Mou
   role: Assistant Professor, Industrial and Systems Engineering
@@ -28,7 +28,7 @@ phd:   # most senior first (start date), as Sean ordered them on 2026-10-01
   - {name: Robert Weber, role: Ph.D. Student, since: Sep 2026, photo: robert-weber.jpg, edu: ["B.S., University of Minnesota"], research: Industrial AI and agentic AI for advanced manufacturing}
 masters: []
 undergrads:
-  - {name: Siyu (Sylvia) Liu, role: Undergraduate Researcher, photo: siyu-liu.jpg}
+  - {name: Siyu (Sylvia) Liu, role: Undergraduate Researcher, photo: siyu-liu.jpg, award: UROP Award recipient}
   - {name: Yuxuan Zhao, role: Undergraduate Researcher, photo: yuxuan-zhao.jpg}
 highschool:
   - {name: Parth Rana, role: High School Student, photo: parth-rana.jpg}

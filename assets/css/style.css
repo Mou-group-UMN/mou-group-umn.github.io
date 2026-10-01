@@ -137,6 +137,7 @@ h3{font-size:19px;line-height:1.3}
 .pbody p{margin:.15em 0;font-size:15px;line-height:1.5;color:var(--muted)}
 .pbody .pmeta{font:13px/1.6 var(--mono)}.pbody .cadv{font-style:italic}
 .pbody .research{margin-top:.35em;color:var(--ink);font-size:15.5px}
+.paward .award{margin-left:0}
 @media(max-width:560px){.prow{grid-template-columns:84px minmax(0,1fr);gap:16px}.pphoto{width:84px;height:84px}}
 .h2-note{font-size:17px;font-weight:400;letter-spacing:0;color:var(--muted)}   /* people.yml section_notes */
 @media(max-width:560px){.h2-note{display:block;margin-top:4px;font-size:15px;line-height:1.45}}
