@@ -14,7 +14,7 @@ practitioners: >-   # note under the statement (Sean, 2026-10-01); HTML allowed
 openings:
   title: We are recruiting Ph.D. students
   topics:   # bullet points under the title (Sean, 2026-10-01); HTML allowed
-    - '<strong>Agentic AI for industrial inspection and quality control</strong>, as part of our NSF-funded <a href="/projects/#data-agent">Data-Agent</a> project.'
+    - '<strong>Agentic AI for industrial inspection and quality control</strong>, as part of our NSF-funded <a href="/projects/#data-agent">Data-Agent</a> project, co-advised by Prof. Shancong Mou (ISyE) and Prof. Zirui Liu (CS).'
     - 'We are also open to strong candidates with a solid numerical or mathematical background (for example, numerical analysis, PDEs or scientific computing) to work on <strong>physics-informed learning and large-scale optimization</strong>.'
   more: 'A few current student projects can be found on the <a href="/people/">People</a> page.'   # line after the bullets
   text: >-
