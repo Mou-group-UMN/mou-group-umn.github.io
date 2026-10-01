@@ -4,17 +4,20 @@
 # (figures shrink to fit on phones; figures that don't fit next to each other wrap to a new row).
 # parts: sub-projects shown side by side in one section (same fields as a project, minus short;
 # their id is still an anchor). They stack on narrow screens.
+# amount = short funding summary shown under the label in the jump list at the top;
+# funding_label = heading over the funding list (default "Funded by").
 - id: hvac
   short: Samsung GRO · HVAC control
+  amount: "$150K/yr · $300K total"
   title: Neural Refrigeration Cycle Network enabled Optimal Control of Closed-loop Fluid Infrastructure System
   text: '<strong>Goal:</strong> physics-informed, learning-based controllers for next-generation, energy-efficient control of HVAC systems.'
   funding:
     - '<a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> (awarded 2024, renewed for Year 2 in 2026; $150K/yr, $300K total)'
-    - '<a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a> Award'
   figures:
     - {image: /assets/img/research/hvac-operation-to-design.jpg, width: 600, caption: 'From energy-efficient operation to optimal HVAC design: physics-informed learning for large-scale HVAC systems.'}
 - id: agentic-ai
   short: Agentic AI for advanced manufacturing
+  amount: "NSF $600K · UMN DSI $200K"
   title: Agentic AI for Advanced Manufacturing
   parts:
     - id: big-vision
@@ -22,7 +25,6 @@
       text: '<strong>Goal:</strong> develop a large-scale vision-based industrial inspection dataset, along with methodology for (1) large-scale manufacturing data sourcing, screening and quality control, (2) automated fine-grained manufacturing annotation with human feedback, and (3) downstream task-aware dataset design.'
       funding:
         - 'UMN Data Science Initiative ($200K; <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">DSI news coverage</a>)'
-        - '<a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a> Award'
         - 'NSF OAC <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2608818">#2608818</a>'
       figures:
         - {image: /assets/img/projects/big-vision.png, width: 720, alt: 'Big VISION Initiative: what it is, key points and road map', caption: 'Big VISION at UMN: a large-scale AI dataset, an industry–academia forum and a global platform for vision-based industrial inspection.'}
@@ -34,3 +36,12 @@
       team: Sean Mou (PI), with co-PIs Zirui Liu and Yinan Wang
       figures:
         - {image: /assets/img/research/data-agent-overview.png, width: 900, caption: 'Data-Agent’s three thrusts: VLM-agent dataset screening, foundation-model label curation and task-aware dataset design.'}
+- id: nvidia
+  short: NVIDIA computing
+  amount: "30K A100 GPU hours · 2 RTX 6000 GPUs"
+  title: NVIDIA Computing Support
+  text: 'In-kind GPU computing and hardware from the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a>, supporting our work on data quality, physics-informed AI and differentiable simulation.'
+  funding_label: Awards
+  funding:
+    - '<strong>30K A100 GPU hours</strong> (2025) for automatic data quality evaluation and synthetic data generation, supporting the <a href="#big-vision">Big VISION Initiative</a>'
+    - '<strong>2 RTX 6000 Max-Q workstation GPUs</strong> (2026) for physics-informed AI and differentiable simulation, supporting our <a href="#hvac">HVAC project</a> (a differentiable HVAC system simulator)'

@@ -4,7 +4,7 @@ title: Funded Projects
 permalink: /projects/
 ---
 <p class="pj-lead">{{ site.data.home.projects_lead }}</p>
-<div class="chips pj-jump">{% for p in site.data.projects %}<a href="#{{ p.id }}">{{ p.short }}</a>{% endfor %}</div>
+<div class="chips pj-jump">{% for p in site.data.projects %}<a href="#{{ p.id }}"><span class="jc-t">{{ p.short }}</span>{% if p.amount %}<span class="jc-a">{{ p.amount }}</span>{% endif %}</a>{% endfor %}</div>
 {% for p in site.data.projects %}
 <section class="project" id="{{ p.id }}">
 <h2>{{ p.title }}</h2>

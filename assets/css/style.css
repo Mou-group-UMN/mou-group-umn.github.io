@@ -163,6 +163,8 @@ h3{font-size:19px;line-height:1.3}
 /* funded projects */
 .pj-lead{margin:0 0 16px;font-size:17px;line-height:1.6}
 .pj-jump{margin-bottom:8px}
+.pj-jump a{display:flex;flex-direction:column;gap:3px;padding:9px 14px}   /* jump list: label plus funding amount */
+.pj-jump .jc-t{font:600 14px/1.35 var(--sans);color:var(--ink)}.pj-jump .jc-a{font:500 12.5px/1.4 var(--mono);color:var(--maroon)}
 .project{margin:28px 0;padding:6px 0 28px;background:#fff;border-top:3px solid var(--gold);scroll-margin-top:12px}   /* white, no panel (Sean, 2026-09-30) */
 .project h2{margin:.9em 0 .45em;line-height:1.3}
 .pj-text{max-width:880px}.pj-text p{margin:0}
