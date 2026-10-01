@@ -25,8 +25,7 @@ phd:
   - {name: Zhiping Li, role: Ph.D. Student, photo: zhiping-li.jpg, edu: ["B.S. and M.S., Fudan University"], research: "Current project: surrogate-model bilevel optimization for sensor placement, mixed-integer programming"}
   - {name: Robert Weber, role: Ph.D. Student, photo: robert-weber.jpg, edu: ["B.S., University of Minnesota"], research: Industrial AI and agentic AI}
   - {name: Xinhan Yang, role: Ph.D. Student, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang", research: Physics-informed learning and its applications in energy systems}
-masters:
-  - {name: Chenxu Qiu, role: "Master's Student", photo: chenxu-qiu.jpg}
+masters: []
 undergrads:
   - {name: Siyu (Sylvia) Liu, role: Undergraduate Researcher, photo: siyu-liu.jpg}
   - {name: Yuxuan Zhao, role: Undergraduate Researcher, photo: yuxuan-zhao.jpg}
