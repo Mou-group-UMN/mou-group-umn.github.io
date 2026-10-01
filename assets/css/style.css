@@ -59,6 +59,7 @@ h3{font-size:19px;line-height:1.3}
 .home h2{margin:0;font-size:30px;line-height:1.2;letter-spacing:-.01em}
 .h-intro{display:flex;flex-direction:column;gap:14px}
 .statement{margin:0;font-size:18px;line-height:1.65}
+.pr-note{margin:0;padding-left:16px;border-left:3px solid var(--gold);font-size:16px;line-height:1.6}   /* "For practitioners" note */
 .chips{display:flex;flex-wrap:wrap;gap:10px;padding-top:4px}
 .chips a{padding:6px 11px;border:1px solid var(--chip);font:500 13.5px/1.4 var(--sans);color:var(--muted);text-decoration:none}
 .chips a:hover{border-color:var(--maroon);color:var(--maroon)}

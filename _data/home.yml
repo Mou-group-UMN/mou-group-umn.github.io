@@ -5,6 +5,12 @@ statement: >-
   learning (modeling), large-scale optimization (algorithms) and computational science (efficient
   implementation), with applications in vision-based industrial inspection, advanced manufacturing, energy
   systems and more.
+practitioners: >-   # note under the statement (Sean, 2026-10-01); HTML allowed
+  <strong>For practitioners:</strong> our work is industrial and physical AI, that is, AI that understands
+  and improves real machines, plants and energy systems. It rests on three parts that need one another.
+  Machine learning gives us a good model of the system. Optimization is the next stage: once the model is
+  good, it finds the best designs, operating settings and controls. Efficient algorithms and computation
+  then bring these advances into the real world, at the speed and scale that deployment demands.
 openings:
   title: We are recruiting Ph.D. students
   text: >-
