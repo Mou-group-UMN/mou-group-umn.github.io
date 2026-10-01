@@ -1,5 +1,6 @@
 # People page data. photo = a file in assets/img/people/ ("" shows a placeholder).
 # Sections show in this order; an empty section is hidden.
+# Card fields: name, role, photo, optional cadv (co-advisor line), edu (list of degree lines), research (one line), web.
 pi:
   name: Shancong (Sean) Mou
   role: Assistant Professor, Industrial and Systems Engineering
@@ -18,12 +19,12 @@ pi:
 section_notes:   # optional note after a section heading on the People page, shown in parentheses
   phd: working or collaborating with the Mou Group
 phd:
-  - {name: Zewei Deng, role: Ph.D. Student, photo: zewei-deng.jpg}
+  - {name: Zewei Deng, role: Ph.D. Student, photo: zewei-deng.jpg, cadv: Co-advised with Prof. Liyan Xie, edu: ["B.S., University of Illinois Urbana-Champaign", "M.S., University of Chicago"], research: Large language models}
   - {name: Chang He, role: Ph.D. Student, photo: chang-he.jpg}
-  - {name: Deyi Kong, role: Ph.D. Student, photo: deyi-kong.jpg, web: "https://cse.umn.edu/isye/deyi-kong"}
-  - {name: Zhiping Li, role: Ph.D. Student, photo: zhiping-li.jpg}
-  - {name: Robert Weber, role: Ph.D. Student, photo: robert-weber.jpg}
-  - {name: Xinhan Yang, role: Ph.D. Student, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang"}
+  - {name: Deyi Kong, role: Ph.D. Student, photo: deyi-kong.jpg, web: "https://cse.umn.edu/isye/deyi-kong", edu: ["B.S., Wuhan University"], research: Large-scale (bilevel) optimization for learning and decision making}
+  - {name: Zhiping Li, role: Ph.D. Student, photo: zhiping-li.jpg, edu: ["B.S. and M.S., Fudan University"], research: "Current project: surrogate-model bilevel optimization for sensor placement, mixed-integer programming"}
+  - {name: Robert Weber, role: Ph.D. Student, photo: robert-weber.jpg, edu: ["B.S., University of Minnesota"], research: Industrial AI and agentic AI}
+  - {name: Xinhan Yang, role: Ph.D. Student, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang", research: Physics-informed learning and its applications in energy systems}
 masters:
   - {name: Chenxu Qiu, role: "Master's Student", photo: chenxu-qiu.jpg}
 undergrads:

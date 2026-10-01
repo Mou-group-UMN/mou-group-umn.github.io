@@ -18,6 +18,7 @@ description: The Mou Group, led by Shancong (Sean) Mou at the University of Minn
 <div class="eyebrow">Openings</div>
 <h2>{{ h.openings.title }}</h2>
 {% if h.openings.topics %}<ul class="op-topics">{% for t in h.openings.topics %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+{% if h.openings.more %}<p>{{ h.openings.more }}</p>{% endif %}
 <p>{{ h.openings.text }}</p>
 </section>
 
