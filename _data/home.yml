@@ -15,7 +15,7 @@ openings:
   title: We are recruiting Ph.D. students
   topics:   # bullet points under the title (Sean, 2026-10-01); HTML allowed
     - '<strong>Agentic AI for industrial inspection and quality control</strong>, as part of our NSF-funded <a href="/projects/#data-agent">Data-Agent</a> project.'
-    - 'We are also open to strong candidates with a solid numerical or mathematical background (for example, numerical analysis, PDEs or scientific computing) to work on <strong>physics-informed learning</strong>.'
+    - 'We are also open to strong candidates with a solid numerical or mathematical background (for example, numerical analysis, PDEs or scientific computing) to work on <strong>physics-informed learning and large-scale optimization</strong>.'
   text: >-
     Students in statistics, mathematics, computer science, engineering or related majors with proficient
     coding skills are welcome to apply. Please email Prof. Mou at
