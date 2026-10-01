@@ -1,0 +1,3 @@
+<ul class="hn-list">{% for i in include.items %}
+<li><span class="hn-y">{{ i.year }}</span><span class="hn-b">{% if i.who %}{{ i.who | escape }}: {% endif %}<strong>{% if i.url %}<a href="{{ i.url }}">{{ i.name | escape }}</a>{% else %}{{ i.name | escape }}{% endif %}</strong>{% if i.by %}, {{ i.by | escape }}{% endif %}</span></li>{% endfor %}
+</ul>

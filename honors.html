@@ -1,0 +1,11 @@
+---
+layout: default
+title: Honors and Awards
+permalink: /honors/
+description: Honors and awards of Shancong (Sean) Mou and the Mou Group at the University of Minnesota.
+---
+{% for sec in site.data.honors.sections %}
+<h2>{{ sec.title }}</h2>
+{% if sec.groups %}{% for g in sec.groups %}<h3 class="hn-sub">{{ g.title }}</h3>
+{% include honor-list.html items=g.items %}{% endfor %}{% else %}{% include honor-list.html items=sec.items %}{% endif %}
+{% endfor %}

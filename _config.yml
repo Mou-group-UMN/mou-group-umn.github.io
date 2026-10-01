@@ -13,6 +13,7 @@ nav:   # the Classic layout's 7 pages (Software and Photos are unpublished for n
   - {title: Home, url: /}
   - {title: Funded Projects, url: /projects/}   # replaced Research (research.html is unpublished)
   - {title: Publications, url: /publications/}
+  - {title: Awards, url: /honors/}   # Honors and Awards page (Sean, 2026-10-01)
   - {title: People, url: /people/}
   - {title: VISION Workshop, url: /workshops/}
   - {title: Teaching, url: /teaching/}

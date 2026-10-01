@@ -1,0 +1,33 @@
+# Honors and Awards page (honors.html), from Sean's CV (section IV, Honors and Awards), newest first.
+# A section has either items or groups (subsections with items). Item fields: year, name, by,
+# optional who (an advisee's name) and url (links the award name). Plain text; & is fine.
+sections:
+  - title: International and National Awards
+    groups:
+      - title: Best Paper Awards
+        items:
+          - {year: "2025", name: Best Student Paper Award, by: "Physical and Engineering Sciences (SPES) and Quality and Productivity (Q&P), American Statistical Association (ASA)"}
+          - {year: "2024", name: Best Poster Award (Honorable Mention), by: "Quality, Statistics & Reliability (QSR) Section of INFORMS"}
+          - {year: "2023", name: Best Track Paper Award (Winner), by: "Quality Control and Reliability Engineering (QCRE), IISE"}
+          - {year: "2022", name: Best Student Paper Award (Winner), by: QSR Section of INFORMS}
+          - {year: "2022", name: Best Track Paper Award (Finalist), by: "Data Analytics & Information Systems, IISE"}
+          - {year: "2022", name: Best Student Paper Award Finalist, by: "Data Analytics & Information Systems, IISE"}
+          - {year: "2021", name: Best Student Paper Award Finalist, by: "Data Analytics & Information Systems, IISE"}
+      - title: Other Awards and Scholarships
+        items:
+          - {year: "2026", name: Inaugural Best Reviewer Award, by: IISE Transactions}
+          - {year: "2024", name: Mary G. and Joseph Natrella Scholarship, by: ASA Q&P Section}
+          - {year: "2023", name: John S.W. Fargher Jr. Scholarship, by: IISE}
+          - {year: "2022", name: IISE Future Faculty Fellows (3F), by: IISE}
+          - {year: "2022", name: Educational Foundation Scholarship, by: International Society of Automation (ISA)}
+          - {year: "2013–2015", name: China National Scholarship, by: "Ministry of Education of P.R. China"}
+  - title: Institute and School Awards
+    items:
+      - {year: "2026", name: MidCareer Fellow, by: "Institute for Pure and Applied Mathematics (IPAM), for its Long Program ‘Multi-Fidelity Methods for Fusion Energy’"}
+      - {year: "2025", name: Sigma Xi Best Ph.D. Thesis Award, by: Georgia Institute of Technology}
+      - {year: "2023", name: Angela P. & Reed J. Baker Research Excellence Award, by: "School of ISyE, Georgia Tech"}
+      - {year: "2022", name: Outstanding Graduate Student Instructor of the Year, by: "School of ISyE, Georgia Institute of Technology", url: "https://www.isye.gatech.edu/academics/doctoral/current-students/graduate-awards"}
+      - {year: "2017", name: Future Scholar Scholarship, by: Tsinghua University}
+  - title: Awards Won by Advisees
+    items:
+      - {year: "2025", who: Deyi Kong, name: Best Student Paper Award Finalist, by: QSR Section of INFORMS}

@@ -33,7 +33,7 @@ img{max-width:100%}
 .nav a.on{color:var(--maroon);box-shadow:inset 0 -3px 0 var(--maroon)}
 .nt,.burger{display:none}
 .navbar{position:relative}
-@media(max-width:840px){   /* menu collapses below 840px; the 7-item menu is 771px wide with "Funded Projects" */
+@media(max-width:920px){   /* menu collapses at 920px and below; the 8-item menu (with "Awards") is 850px wide and needs a 898px window */
   .burger{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 14px;cursor:pointer;font:500 13px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase}
   .burger::before{content:"\2630";font-size:18px}
   .nav .links{display:none;flex-direction:column;min-height:0;margin:0;padding-bottom:8px}
@@ -183,6 +183,14 @@ h3{font-size:19px;line-height:1.3}
 .pj-part h3{margin:0 0 10px;font-size:19px;line-height:1.35}
 .pj-part .pj-meta{gap:12px 40px}
 @media(max-width:760px){.pj-parts{grid-template-columns:1fr}}
+
+/* honors and awards */
+.hn-sub{margin:1.3em 0 .45em;font-size:17px;color:var(--muted)}
+.hn-list{list-style:none;margin:0;padding:0}
+.hn-list>li{display:grid;grid-template-columns:100px minmax(0,1fr);gap:2px 20px;padding:10px 0;border-top:1px solid var(--line-2);font-size:16px;line-height:1.5}
+.hn-list>li:last-child{border-bottom:1px solid var(--line-2)}
+.hn-y{font:500 13.5px/1.75 var(--mono);color:var(--maroon);white-space:nowrap}
+@media(max-width:560px){.hn-list>li{grid-template-columns:1fr}}
 
 /* teaching */
 .tc-list{list-style:none;margin:0;padding:0}
