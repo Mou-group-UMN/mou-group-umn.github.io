@@ -25,7 +25,7 @@
   text: Congratulations to our students on their awards:<ul><li>Xinhan Yang won the 2026–27 Robert E. Greiling, Jr. Scholarship for Graduate Studies in Renewable Energy.</li><li>Zhiping Li was named runner-up for the INFORMS Computing Society Student Paper Award.</li><li>Sylvia Liu won an Undergraduate Research Opportunities Program (UROP) Award.</li><li>Deyi Kong won the 2026 General Education Endowment Scholarship from the International Society of Automation (ISA).</li></ul>
 - date: Jul 2026
   type: Funding
-  text: 'Our group received an NSF award (#2608818, lead PI: Mou) for <em>Data Agent</em>: autonomous data quality evaluation, curation and task-aware dataset design for vision-based industrial inspection.'
+  text: 'Our group received an NSF award (#2608818, lead PI: Shancong (Sean) Mou) for <em>Data Agent</em>: autonomous data quality evaluation, curation and task-aware dataset design for vision-based industrial inspection.'
   image: /assets/img/research/data-agent-overview.png
   caption: 'NSF Data Agent project: dataset screening, curation and task-aware design.'
   image_width: 560
@@ -81,7 +81,7 @@
   text: 'NVIDIA gifted computing credits to support our project Big VISION: Advancing Data Quality for Vision-Based Industrial Inspection. Many thanks to the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a>!'
 - date: Apr 2025
   type: Award
-  text: Sean received the <a href="https://bpb-us-e1.wpmucdn.com/sites.gatech.edu/dist/0/283/files/2025/03/2025-Sigma-Xi-Research-Award-Winners.pdf">Sigma Xi Best Ph.D. Thesis Award</a> from Georgia Tech, which recognizes ten outstanding dissertations each year across all majors.
+  text: Shancong (Sean) Mou received the <a href="https://bpb-us-e1.wpmucdn.com/sites.gatech.edu/dist/0/283/files/2025/03/2025-Sigma-Xi-Research-Award-Winners.pdf">Sigma Xi Best Ph.D. Thesis Award</a> from Georgia Tech, which recognizes ten outstanding dissertations each year across all majors.
 - date: Mar 2025
   type: Talk
   text: Invited visit to Samsung and presentation on AI/ML-enabled quality, efficiency and productivity improvement in complex engineering systems.
@@ -142,4 +142,4 @@
   text: Our paper <a href="https://arxiv.org/abs/2302.12464">RGI</a> received the Best Track Paper Award of the Quality Control and Reliability Engineering (QCRE) Division, IISE 2023.
 - date: Jun 2023
   type: Service
-  text: Sean continues as a student board member of the <a href="https://www.iise.org/details.aspx?id=898">Quality Control &amp; Reliability Engineering (QCRE) Division of IISE</a> for the 2023–2024 term.
+  text: Shancong (Sean) Mou continues as a student board member of the <a href="https://www.iise.org/details.aspx?id=898">Quality Control &amp; Reliability Engineering (QCRE) Division of IISE</a> for the 2023–2024 term.
