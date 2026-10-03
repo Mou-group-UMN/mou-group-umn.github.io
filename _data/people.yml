@@ -17,13 +17,11 @@ pi:
     Systems Engineering at Georgia Tech (2024), advised by Prof. Jianjun Shi. He also holds an M.S. in
     Computational Science and Engineering from Georgia Tech and a B.Eng. in Energy and Power Engineering from
     Xi'an Jiaotong University.
-section_notes:   # optional note after a section heading on the People page, shown in parentheses
-  phd: working or collaborating with the Mou Group
+section_notes: {}   # optional note after a section heading on the People page, shown in parentheses, e.g. {phd: ...}
 phd:   # most senior first (start date), as Sean ordered them on 2026-10-01
   - {name: Deyi Kong, role: Ph.D. Student, since: Sep 2024, photo: deyi-kong.jpg, web: "https://cse.umn.edu/isye/deyi-kong", edu: ["B.S., Wuhan University"], research: Large-scale (bilevel) optimization for learning and decision making}
   - {name: Xinhan Yang, role: Ph.D. Student, since: Sep 2025, photo: xinhan-yang.jpg, web: "https://cse.umn.edu/isye/xinhan-yang", edu: ["B.S., Shenzhen University", "M.S., Georgia Institute of Technology"], research: Physics-informed learning and its applications in energy systems}
   - {name: Zewei Deng, role: Ph.D. Student, since: Sep 2025, photo: zewei-deng.jpg, cadv: Co-advised with Prof. Liyan Xie, edu: ["B.S., University of Illinois Urbana-Champaign", "M.S., University of Chicago"], research: Large language models}
-  - {name: Chang He, role: Ph.D. Student, since: Sep 2026, photo: chang-he.jpg, cadv: Advised by Prof. Shuzhong Zhang, research: Collaborating with us on large-scale optimization for physics-informed machine learning and related problems}
   - {name: Zhiping Li, role: Ph.D. Student, since: Sep 2026, photo: zhiping-li.jpg, edu: ["B.S. and M.S., Fudan University"], research: "Current project: surrogate-model bilevel optimization for sensor placement, mixed-integer programming"}
   - {name: Robert Weber, role: Ph.D. Student, since: Sep 2026, photo: robert-weber.jpg, edu: ["B.S., University of Minnesota"], research: Industrial AI and agentic AI for advanced manufacturing}
 masters: []
@@ -34,6 +32,8 @@ highschool:
   - {name: Parth Rana, role: High School Student, photo: parth-rana.jpg}
 students: []   # anyone whose role is still to confirm (shown under "Students")
 postdocs: []
+collaborators:   # students from other groups who work with us, shown under "Student Collaborators" (Sean, 2026-10-03)
+  - {name: Chang He, role: Ph.D. Student, since: Sep 2026, photo: chang-he.jpg, cadv: Advised by Prof. Shuzhong Zhang, research: Collaborating with us on large-scale optimization for physics-informed machine learning and related problems}
 former:
   - {name: Wan Wang, role: "Master's student", note: now at Huawei}
   - {name: Michele Nguyen, role: Undergraduate researcher, note: UROP Award recipient}

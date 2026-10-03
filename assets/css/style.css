@@ -150,6 +150,8 @@ h3{font-size:19px;line-height:1.3}
 
 /* publications */
 .pubs{padding-left:1.4em}.pubs li{margin-bottom:14px}
+sup.mk{line-height:0;padding-left:1px;color:var(--maroon);font-weight:700}   /* student advisee marks (* graduate, # undergraduate) */
+.pub-key{margin:0 0 4px;font-size:14px;color:var(--muted)}.pub-key span+span{margin-left:20px}
 .venue{font-style:italic}
 .award{display:inline-block;margin-left:6px;padding:1px 8px;background:var(--gold);color:#4a3500;font:500 11.5px/1.7 var(--mono);letter-spacing:.04em;text-transform:uppercase}
 .tag{display:inline-block;margin-left:4px;padding:0 8px;border:1px solid var(--line);font:12px/1.6 var(--mono);text-decoration:none}

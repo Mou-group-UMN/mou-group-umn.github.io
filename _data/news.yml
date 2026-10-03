@@ -87,7 +87,7 @@
   text: Invited visit to Samsung and presentation on AI/ML-enabled quality, efficiency and productivity improvement in complex engineering systems.
 - date: Feb 2025
   type: Talk
-  text: Invited presentation at the UMN Data Science Initiative <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">Seed Grant Showcase &amp; Spotlight</a> on the <a href="https://sites.google.com/view/shancongmou/funded-projects">Big VISION Initiative</a>, which is building a large-scale dataset and an industry–academia forum for vision-based industrial inspection (VISION).
+  text: Invited presentation at the UMN Data Science Initiative <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">Seed Grant Showcase &amp; Spotlight</a> on the <a href="/projects/#big-vision">Big VISION Initiative</a>, which is building a large-scale dataset and an industry–academia forum for vision-based industrial inspection (VISION).
   image: /assets/img/news/big-vision-seed-grant.jpg
   caption: Presenting Big VISION at the UMN Data Science Initiative Seed Grant Showcase
 - date: Jan 2025
@@ -98,7 +98,7 @@
   text: 'Invited talk “Physics-Informed Learning: Methodology and Applications in Engineering Design and Optimal Control” at Apple DMLI Weekly Sharing.'
 - date: Nov 2024
   type: Funding
-  text: We are honored to receive the <a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> ($150k) to leverage AI/ML for improving HVAC system efficiency.
+  text: We are honored to receive the <a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> to leverage AI/ML for improving HVAC system efficiency.
 - date: Nov 2024
   type: Award
   text: Congratulations to Michele Nguyen on winning an <a href="https://ugresearch.umn.edu/opportunities/urop">Undergraduate Research Opportunities Program (UROP)</a> Award!

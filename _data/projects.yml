@@ -15,33 +15,32 @@
     - '<a href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung Global Research Outreach Award</a> ($300K, 2025–2027)'
   figures:
     - {image: /assets/img/research/hvac-operation-to-design.jpg, width: 600, caption: 'From energy-efficient operation to optimal HVAC design: physics-informed learning for large-scale HVAC systems.'}
-- id: agentic-ai
-  short: Agentic AI for advanced manufacturing
-  amount: "NSF $600K · UMN DSI $200K"
-  title: Agentic AI for Advanced Manufacturing
-  parts:
-    - id: big-vision
-      title: Big VISION Initiative
-      text: '<strong>Goal:</strong> develop a large-scale vision-based industrial inspection dataset, along with methodology for (1) large-scale manufacturing data sourcing, screening and quality control, (2) automated fine-grained manufacturing annotation with human feedback, and (3) downstream task-aware dataset design.'
-      funding:
-        - 'UMN Data Science Initiative ($200K; <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">DSI news coverage</a>)'
-        - 'NSF OAC <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2608818">#2608818</a>'
-      figures:
-        - {image: /assets/img/projects/big-vision.png, width: 720, alt: 'Big VISION Initiative: what it is, key points and road map', caption: 'Big VISION at UMN: a large-scale AI dataset, an industry–academia forum and a global platform for vision-based industrial inspection.'}
-    - id: data-agent
-      title: 'Data-Agent: Agentic AI for Autonomous Data Quality Evaluation, Curation and Task-Aware Dataset Design for Vision-Based Industrial Inspection'
-      text: 'Industrial inspection is critical to ensuring the safety, reliability, and quality of manufactured products and complex engineering systems, yet advances in AI-enabled inspection are often limited by the availability of high-quality, well-curated data. This NSF-funded project will develop Data-Agent, an agentic AI-powered methodological and software platform for data-centric AI in vision-based industrial inspection. Data-Agent will provide integrated capabilities for automatically evaluating the quality of large and heterogeneous inspection datasets, improving annotations through human feedback, and designing task-aware datasets that are representative and informative for downstream inspection tasks. Building on the <a href="https://vision-workshop-26.github.io/cvpr-2026/">VISION Workshop series</a>, an established community for advancing computer vision and AI for industrial inspection, the project will also release VISION V2, together with open-source software, benchmarks, tutorials, and training resources. Through these efforts, the project aims to foster a broader community of researchers, students, and industry practitioners and advance more trustworthy and effective AI systems for advanced manufacturing.'
-      funding:
-        - 'National Science Foundation, CSSI <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2608818">#2608818</a> ($600K total, $400K to UMN)'
-      team: Shancong (Sean) Mou (PI), with co-PIs Zirui Liu and Yinan Wang
-      figures:
-        - {image: /assets/img/research/data-agent-overview.png, width: 900, caption: 'Data-Agent’s three thrusts: VLM-agent dataset screening, foundation-model label curation and task-aware dataset design.'}
-- id: nvidia
-  short: NVIDIA computing
-  amount: "30K A100 GPU hours · 2 RTX 6000 GPUs"
-  title: NVIDIA Computing Support
-  text: 'In-kind GPU computing and hardware from the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a>, supporting our work on data quality, physics-informed AI and differentiable simulation.'
+- id: big-vision   # split from "Agentic AI for advanced manufacturing" into its own project (Sean, 2026-10-03)
+  short: UMN DSI · Big VISION
+  amount: "$200K (no indirect cost) · 2025–2028"
+  title: Big VISION Initiative   # title alone (Sean, 2026-10-03)
+  text: '<strong>Goal:</strong> build a large-scale dataset for vision-based industrial inspection, together with an industry–academia forum and a global platform for sharing data and knowledge on industrial computer vision.'
+  funding:
+    - 'UMN Data Science Initiative ($200K, no indirect cost; 2025–2028) · <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">DSI news coverage</a>'
+  figures:
+    - {image: /assets/img/projects/big-vision.png, width: 720, alt: 'Big VISION Initiative: what it is, key points and road map', caption: 'Big VISION at UMN: a large-scale AI dataset, an industry–academia forum and a global platform for vision-based industrial inspection.'}
+- id: data-agent
+  short: NSF · Data-Agent
+  amount: "$600K · 2026–2029"
+  title: 'Data-Agent: Agentic AI for Autonomous Data Quality Evaluation, Curation and Task-Aware Dataset Design for Vision-Based Industrial Inspection'
+  text: 'Industrial inspection is critical to ensuring the safety, reliability, and quality of manufactured products and complex engineering systems, yet advances in AI-enabled inspection are often limited by the availability of high-quality, well-curated data. This NSF-funded project will develop Data-Agent, an agentic AI-powered methodological and software platform for data-centric AI in vision-based industrial inspection. Data-Agent will provide integrated capabilities for automatically evaluating the quality of large and heterogeneous inspection datasets, improving annotations through human feedback, and designing task-aware datasets that are representative and informative for downstream inspection tasks. Building on the <a href="https://vision-workshop-26.github.io/cvpr-2026/">VISION Workshop series</a>, an established community for advancing computer vision and AI for industrial inspection, the project will also release VISION V2, together with open-source software, benchmarks, tutorials, and training resources. Through these efforts, the project aims to foster a broader community of researchers, students, and industry practitioners and advance more trustworthy and effective AI systems for advanced manufacturing.'
+  funding:
+    - 'National Science Foundation, CSSI <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2608818">#2608818</a> ($600K total, $400K to UMN; 2026–2029)'
+  team: Shancong (Sean) Mou (PI), with co-PIs Zirui Liu and Yinan Wang
+  figures:
+    - {image: /assets/img/research/data-agent-overview.png, width: 900, caption: 'Data-Agent’s three thrusts: VLM-agent dataset screening, foundation-model label curation and task-aware dataset design.'}
+- id: computing
+  short: NAIRR Pilot & NVIDIA · computing
+  amount: "$238.8K AWS credits · NVIDIA GPUs"
+  title: Computing Support
+  text: 'In-kind cloud and GPU computing from the <a href="https://nairrpilot.org/">National AI Research Resource (NAIRR) Pilot</a> and the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a>, supporting our work on data-centric AI, physics-informed AI and differentiable simulation.'
   funding_label: Awards
   funding:
-    - '<strong>30K A100 GPU hours</strong> (2025) for automatic data quality evaluation and synthetic data generation, supporting the <a href="#big-vision">Big VISION Initiative</a>'
-    - '<strong>2 RTX 6000 Max-Q workstation GPUs</strong> (2026) for physics-informed AI and differentiable simulation, supporting our <a href="#hvac">HVAC project</a> (a differentiable HVAC system simulator)'
+    - '<strong>$238,800 in AWS cloud credits</strong> from the NAIRR Pilot (NAIRR250089; Co-PI) for a data-centric AI framework for defect detection in advanced manufacturing: automated data curation, annotation and design'
+    - '<strong>30K A100 GPU hours</strong> from NVIDIA (2025) for automatic data quality evaluation and synthetic data generation, supporting the <a href="#big-vision">Big VISION Initiative</a>'
+    - '<strong>2 RTX 6000 Max-Q workstation GPUs</strong> from NVIDIA (2026) for physics-informed AI and differentiable simulation, supporting our <a href="#hvac">HVAC project</a> (a differentiable HVAC system simulator)'
