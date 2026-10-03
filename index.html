@@ -22,7 +22,7 @@ description: The Mou Group, led by Shancong (Sean) Mou at the University of Minn
 <p>{{ h.openings.text }}</p>
 </section>
 
-{% capture logos %}{% for s in h.sponsors %}{% assign lf = site.static_files | where: "path", s.logo | first %}{% if lf %}{% if s.url %}<a href="{{ s.url }}">{% endif %}<img src="{{ s.logo | relative_url }}" alt="{{ s.name }}"{% if s.height %} style="--h:{{ s.height }}px"{% endif %}>{% if s.url %}</a>{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% capture logos %}{% for s in h.sponsors %}{% assign lf = site.static_files | where: "path", s.logo | first %}{% if lf %}{% if s.url %}<a href="{{ s.url }}">{% endif %}<img src="{{ s.logo | relative_url }}" alt="{{ s.name }}"{% if s.height or s.max_width %} style="{% if s.height %}--h:{{ s.height }}px;{% endif %}{% if s.max_width %}--mw:{{ s.max_width }}px{% endif %}"{% endif %}>{% if s.url %}</a>{% endif %}{% endif %}{% endfor %}{% endcapture %}
 {% assign logos = logos | strip %}{% if logos != "" %}<section class="sponsors"><div class="eyebrow">Supported by</div><div class="logos">{{ logos }}</div></section>{% endif %}
 
 </div>

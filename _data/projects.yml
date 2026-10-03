@@ -4,7 +4,8 @@
 # (figures shrink to fit on phones; figures that don't fit next to each other wrap to a new row).
 # parts: sub-projects shown side by side in one section (same fields as a project, minus short;
 # their id is still an anchor). They stack on narrow screens.
-# amount = short funding summary shown under the label in the jump list at the top;
+# amount = funding summary shown after the label in the list at the top of the page;
+# jump = sub-items ({label, amount}) shown under the label in that list instead (Computing support);
 # funding_label = heading over the funding list (default "Funded by").
 - id: hvac
   short: Samsung GRO · HVAC control
@@ -35,12 +36,13 @@
   figures:
     - {image: /assets/img/research/data-agent-overview.png, width: 900, caption: 'Data-Agent’s three thrusts: VLM-agent dataset screening, foundation-model label curation and task-aware dataset design.'}
 - id: computing
-  short: NAIRR Pilot & NVIDIA · computing
-  amount: "$238.8K AWS credits · NVIDIA GPUs"
+  short: Computing support
+  jump:   # listed under "Computing support" at the top of the page (Sean, 2026-10-03)
+    - {label: NSF NAIRR Pilot, amount: "$238.8K AWS credits"}
+    - {label: NVIDIA Academic Grant Program, amount: "30K A100 GPU hours (2025–2026); 2 RTX 6000 GPUs (2026–2027)"}
   title: Computing Support
-  text: 'In-kind cloud and GPU computing from the <a href="https://nairrpilot.org/">National AI Research Resource (NAIRR) Pilot</a> and the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a>, supporting our work on data-centric AI, physics-informed AI and differentiable simulation.'
+  text: 'In-kind cloud and GPU computing from the <a href="https://nairrpilot.org/">NSF National AI Research Resource (NAIRR) Pilot</a> and the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/">NVIDIA Academic Grant Program</a>, supporting our work on data-centric AI, physics-informed AI and differentiable simulation.'
   funding_label: Awards
   funding:
-    - '<strong>$238,800 in AWS cloud credits</strong> from the NAIRR Pilot (NAIRR250089; Co-PI) for a data-centric AI framework for defect detection in advanced manufacturing: automated data curation, annotation and design'
-    - '<strong>30K A100 GPU hours</strong> from NVIDIA (2025) for automatic data quality evaluation and synthetic data generation, supporting the <a href="#big-vision">Big VISION Initiative</a>'
-    - '<strong>2 RTX 6000 Max-Q workstation GPUs</strong> from NVIDIA (2026) for physics-informed AI and differentiable simulation, supporting our <a href="#hvac">HVAC project</a> (a differentiable HVAC system simulator)'
+    - '<strong>NSF NAIRR Pilot:</strong> $238,800 in AWS cloud credits (NAIRR250089; Co-PI) for a data-centric AI framework for defect detection in advanced manufacturing: automated data curation, annotation and design'
+    - '<strong>NVIDIA Academic Grant Program:</strong><ul><li>30K A100 GPU hours (2025–2026) for automatic data quality evaluation and synthetic data generation, supporting the <a href="#big-vision">Big VISION Initiative</a></li><li>2 RTX 6000 Max-Q workstation GPUs (2026–2027) for physics-informed AI and differentiable simulation, supporting our <a href="#hvac">HVAC project</a> (a differentiable HVAC system simulator)</li></ul>'

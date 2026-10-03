@@ -27,8 +27,9 @@ pi:   # right-hand block next to the statement and openings, above News; name, e
   photo: shancong-mou-portrait.jpg   # in assets/img/people/, 7:8
   lines: [Assistant Professor, Industrial and Systems Engineering, University of Minnesota]
 projects_lead: Our research is supported by the National Science Foundation, Samsung, the University of Minnesota Data Science Initiative, the National AI Research Resource (NAIRR) Pilot and NVIDIA.   # first line of the Funded Projects page
-sponsors:   # "Supported by" logo row at the bottom of the homepage; a logo shows once its file exists in the repo
+sponsors:   # "Supported by" logo row under the openings; a logo shows once its file exists in the repo; height and max_width in px
   - {name: National Science Foundation, logo: /assets/img/sponsors/nsf.png, url: "https://www.nsf.gov/", height: 60}
+  - {name: "National Artificial Intelligence Research Resource (NAIRR) Pilot", logo: /assets/img/sponsors/nairr-pilot.svg, url: "https://nairrpilot.org/", height: 30, max_width: 340}   # Sean, 2026-10-03
   - {name: NVIDIA, logo: /assets/img/sponsors/nvidia.png, url: "https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/", height: 34}
   - {name: Samsung, logo: /assets/img/sponsors/samsung.png, url: "https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do", height: 44}
   - {name: "University of Minnesota Data Science Initiative", logo: /assets/img/sponsors/umn-dsi.png, url: "https://dsi.umn.edu/", height: 44}

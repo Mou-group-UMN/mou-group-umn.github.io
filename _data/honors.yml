@@ -2,6 +2,9 @@
 # A section has either items or groups (subsections with items). Item fields: year, name, by,
 # optional who (an advisee's name) and url (links the award name). Plain text; & is fine.
 sections:
+  - title: Awards Won by Advisees   # shown first (Sean, 2026-10-03)
+    items:
+      - {year: "2025", who: Deyi Kong, name: Best Student Paper Award Finalist, by: QSR Section of INFORMS}
   - title: International and National Awards
     groups:
       - title: Best Paper Awards
@@ -28,6 +31,3 @@ sections:
       - {year: "2023", name: Angela P. & Reed J. Baker Research Excellence Award, by: "School of ISyE, Georgia Tech"}
       - {year: "2022", name: Outstanding Graduate Student Instructor of the Year, by: "School of ISyE, Georgia Institute of Technology", url: "https://www.isye.gatech.edu/academics/doctoral/current-students/graduate-awards"}
       - {year: "2017", name: Future Scholar Scholarship, by: Tsinghua University}
-  - title: Awards Won by Advisees
-    items:
-      - {year: "2025", who: Deyi Kong, name: Best Student Paper Award Finalist, by: QSR Section of INFORMS}
