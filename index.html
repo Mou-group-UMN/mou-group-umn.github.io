@@ -31,6 +31,7 @@ description: The Mou Group, led by Shancong (Sean) Mou at the University of Minn
 <div class="h-pi-text">
 <div class="eyebrow">Principal Investigator</div>
 <a class="pi-name" href="{{ '/people/' | relative_url }}">{{ pi.name }}</a>
+{% if pi.pronounce %}<div class="pi-say">{{ pi.pronounce }}</div>{% endif %}
 <div class="pi-role">{{ h.pi.lines | join: "<br>" }}</div>
 <a class="pi-email" href="mailto:{{ pi.email }}">{{ pi.email }}</a>
 <div class="pi-links">{% for l in pi.links %}<a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label }}</a>{% endfor %}</div>

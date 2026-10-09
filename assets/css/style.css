@@ -86,6 +86,7 @@ h3{font-size:19px;line-height:1.3}
 .h-pi .pi-name{font-size:21px;font-weight:600;line-height:1.25;color:var(--ink);text-decoration:none}
 .h-pi .pi-name:hover{color:var(--maroon)}
 .h-pi .pi-role{font-size:15px;line-height:1.5;color:var(--muted)}
+.pi-say{margin:-6px 0 10px;font-size:14px;line-height:1.4;font-style:italic;color:var(--muted)}.h-pi .pi-say{margin:-3px 0 2px}   /* how to say Shancong */
 .pi-email{font:500 14px/1.4 var(--mono);color:var(--maroon);text-decoration:none}.pi-email:hover{text-decoration:underline}
 .h-pi .pi-links{display:flex;flex-wrap:wrap;gap:2px 14px;margin:4px 0 0;font:500 13px/1.6 var(--mono)}
 @media(max-width:1100px){.h-top{grid-template-columns:minmax(0,1fr) 240px;gap:40px}}
