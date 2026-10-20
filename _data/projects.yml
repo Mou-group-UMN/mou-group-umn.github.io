@@ -18,11 +18,11 @@
     - {image: /assets/img/research/hvac-operation-to-design.jpg, width: 600, caption: 'From energy-efficient operation to optimal HVAC design: physics-informed learning for large-scale HVAC systems.'}
 - id: big-vision   # split from "Agentic AI for advanced manufacturing" into its own project (Sean, 2026-10-03)
   short: UMN DSI · Big VISION
-  amount: "$200K (no indirect cost) · 2025–2028"
+  amount: "$200K (no indirect cost) · 2025–2027"   # dates per the CV (01/2025–12/2027)
   title: Big VISION Initiative   # title alone (Sean, 2026-10-03)
   text: '<strong>Goal:</strong> build a large-scale dataset for vision-based industrial inspection, together with an industry–academia forum and a global platform for sharing data and knowledge on industrial computer vision.'
   funding:
-    - 'UMN Data Science Initiative ($200K, no indirect cost; 2025–2028) · <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">DSI news coverage</a>'
+    - 'UMN Data Science Initiative ($200K, no indirect cost; 2025–2027) · <a href="https://dsi.umn.edu/news/recap-seed-grant-showcase-spotlight-2024-awardees">DSI news coverage</a>'
   figures:
     - {image: /assets/img/projects/big-vision.png, width: 720, alt: 'Big VISION Initiative: what it is, key points and road map', caption: 'Big VISION at UMN: a large-scale AI dataset, an industry–academia forum and a global platform for vision-based industrial inspection.'}
 - id: data-agent
