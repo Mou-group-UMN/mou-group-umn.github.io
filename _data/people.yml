@@ -35,7 +35,10 @@ students: []   # anyone whose role is still to confirm (shown under "Students")
 postdocs: []
 collaborators:   # students from other groups who work with us, shown under "Student Collaborators" (Sean, 2026-10-03)
   - {name: Chang He, role: Ph.D. Student, since: Sep 2026, photo: chang-he.jpg, cadv: Advised by Prof. Shuzhong Zhang, research: Collaborating with us on large-scale optimization for physics-informed machine learning and related problems}
-former:
-  - {name: Wan Wang, role: "Master's student", note: now at Huawei}
-  - {name: Michele Nguyen, role: Undergraduate researcher, note: UROP Award recipient}
-  - {name: Hanting Fei, role: Remote research assistant, note: "now at ISE, Virginia Tech"}
+former:   # alumni as listed in the CV (Individual Student Guidance), in the CV's order (Sean, 2026-10-20)
+  - {name: Wan Wang, role: "M.S. student in Computer Science, 2024–2025", note: now at Huawei Technologies}
+  - {name: Yu-Tong Chuang, role: "M.S. student in Computer Science, 2025–2026"}
+  - {name: Haoyu Wang, role: "M.S. student in Industrial Engineering, 2025–2026", note: now at CATL}
+  - {name: Michele Nguyen, role: "Undergraduate researcher in Computer Science & Industrial Engineering, Spring 2025", note: UROP Award recipient}
+  - {name: Gloria Le, role: Undergraduate researcher in Computer Science, note: now a Ph.D. student in Computer Science at the University of Minnesota}
+  - {name: Hanting Fei, role: Remote research assistant, note: "now at ISE, Virginia Tech"}   # not in the CV
