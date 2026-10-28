@@ -5,6 +5,9 @@
 # Optional figure: image = path under /assets/img/ (shown only once that file exists), caption = one line under it; image_width = display width in px (default 520).
 # Optional preview card: link = {url, site, title, description, mark or image}.
 # Optional video card: video = {url, site, title, description, mark, thumbnail}; shows "Video · <site>"; mark labels the thumbnail if the image can't load.
+- date: Oct 2026
+  type: Talk
+  text: 'Invited talk “Derivative-Informed Training of Neural Operators On-the-Fly via Sketched Tangent Consistency” in the Physics-Informed Machine Learning minisymposium at the <a href="https://siamnnp2026.sciencesconf.org">2026 SIAM New York–New Jersey–Pennsylvania Section Annual Meeting</a>, Rutgers University (<a href="https://arxiv.org/abs/2609.32797">paper</a>).'
 - date: Sep 2026
   type: Talk
   text: 'Visited Samsung Electronics to give an invited talk on our GRO project: “AI/ML Modeling + Large-scale Optimization for Large-scale Complex Engineering Systems.”'
