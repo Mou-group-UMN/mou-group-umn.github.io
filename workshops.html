@@ -9,6 +9,15 @@ permalink: /workshops/
 <div class="ws-next-title">VISION 2027</div>
 <p>The fifth VISION workshop is being planned. Details will be posted here soon, and we hope you will join us.</p>
 </aside>
+{% comment %} Special-issue call for papers, shown until the submission deadline (Feb 28, 2027); the script also hides it after that date between rebuilds. {% endcomment %}{% assign cfp_today = site.time | date: "%Y%m%d" | plus: 0 %}{% if cfp_today <= 20270228 %}
+<aside class="ws-next ws-cfp" aria-label="Special issue call for papers" data-until="2027-02-28">
+<div class="eyebrow">Call for papers · Special issue</div>
+<div class="ws-next-title">Vision-based Industrial Inspection Across Modalities: Surface, X-ray, CT, and 3D</div>
+<p>Our VISION’26 special issue in <em>Machine Vision and Applications</em> is open for submissions. It welcomes extended versions of VISION’26 papers as well as new submissions from the community.</p>
+<p><strong>Guest editors:</strong> Shancong Mou (lead), Ramazan Gökberk Cinbiş, Juan Du, C.&nbsp;Thomas, Jennifer Vandoni, and Naoufel Werghi</p>
+<p><strong>Submission deadline:</strong> Feb 28, 2027 · <a href="https://link.springer.com/collections/aibjdhfeja">Call for papers →</a></p>
+</aside>
+<script>(function(){var e=document.querySelector('.ws-cfp');if(e&&new Date()>new Date(e.getAttribute('data-until')+'T23:59:59'))e.remove();})();</script>{% endif %}
 <p>Shancong (Sean) Mou, together with Meng Cao (Apple) and Jianjun Shi (Georgia Tech), initiated <strong>VISION</strong>, the workshop series on Vision-based InduStrial InspectiON, in 2023, and has chaired the series since then. The first workshop was held at CVPR 2023 in Vancouver, Canada (June 2023). In the following years, the series has been held at ECCV 2024 in Milan, Italy (September 2024), ICCV 2025 in Honolulu, Hawaii (October 2025) and CVPR 2026 in Denver, Colorado (June 2026), where the fourth workshop expanded to inspection across imaging modalities, including X-ray.</p>
 <p>The VISION workshop will build a leading platform for the exchange of scholarly innovations and emerging practical challenges in AI for vision-based industrial inspection. Inspection is how manufacturers ensure the quality and safety of their products, and AI can make it faster and more reliable. Yet a gap remains between research and practice: academic methods are often developed on clean, well-labeled benchmarks, while production lines face rare defects, scarce and confidential data, costly annotation and strict requirements for reliable deployment. VISION brings the two sides together. Each workshop gathers computer vision researchers, students and industry practitioners from manufacturing, aerospace, security screening and technology companies for keynote talks, peer-reviewed papers, panel discussions and data challenges on real inspection problems, built on open datasets such as <a href="https://arxiv.org/abs/2306.07890">VISION Datasets</a> (14 datasets with 18,000 images and 44 defect types).</p>
 
