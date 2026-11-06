@@ -3,11 +3,18 @@ layout: default
 title: VISION Workshop
 permalink: /workshops/
 ---
-{% comment %} Next workshop, shown first. Add the venue, dates and link once they are confirmed. {% endcomment %}
+{% comment %} Next workshop, shown first. Add the dates and link once they are confirmed. Keynote speakers: list only those who have confirmed, alphabetical by last name (Sean, 2026-11-05). {% endcomment %}
 <aside class="ws-next" aria-label="Next workshop">
 <div class="eyebrow">Next workshop</div>
 <div class="ws-next-title">VISION 2027</div>
-<p>The fifth VISION workshop is being planned. Details will be posted here soon, and we hope you will join us.</p>
+<p>The fifth VISION workshop is being planned (VISION’27 @ CVPR 2027, Seattle). Details will be posted here soon, and we hope you will join us.</p>
+<p class="ws-spk-h"><strong>Confirmed keynote speakers</strong></p>
+<ul class="ws-spk">
+<li><strong>Shuai Huang</strong>, Professor of Industrial and Systems Engineering, University of Washington</li>
+<li><strong>Jonathan Lwowski</strong>, Field CTO, Physical AI and Robotics, Nebius</li>
+<li><strong>Aditi Roy</strong>, Senior Key Expert, Siemens</li>
+<li><strong>Minjun Song</strong>, EHS/Infra Technology Research Center, DS Division, Samsung Electronics</li>
+</ul>
 </aside>
 {% comment %} Special-issue call for papers, shown until the submission deadline (Feb 28, 2027); the script also hides it after that date between rebuilds. {% endcomment %}{% assign cfp_today = site.time | date: "%Y%m%d" | plus: 0 %}{% if cfp_today <= 20270228 %}
 <aside class="ws-next ws-cfp" aria-label="Special issue call for papers" data-until="2027-02-28">
