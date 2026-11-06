@@ -229,7 +229,7 @@ sup.mk{line-height:0;padding-left:1px;color:var(--maroon);font-weight:700}   /* 
 .ws-next-title{margin:4px 0 4px;font-size:22px;font-weight:600;line-height:1.3;color:var(--ink)}
 .ws-next p{margin:0}
 .ws-cfp p+p{margin-top:6px}.ws-cfp .ws-next-title{font-size:20px}   /* special-issue call for papers, under Next workshop */
-.ws-next .ws-spk-h{margin-top:12px}.ws-spk{margin:.3em 0 0;padding-left:1.2em}.ws-spk li{margin:.2em 0}.ws-spk li::marker{color:var(--maroon)}   /* confirmed keynote speakers, in the Next workshop box */
+.ws-next .ws-spk-h{margin-top:12px}.ws-spk{margin:.3em 0 0;padding-left:1.2em}.ws-spk li{margin:.2em 0}.ws-spk li::marker{color:var(--maroon)}.ws-spk .ws-spk-more{list-style:none;color:var(--muted)}   /* confirmed keynote speakers, in the Next workshop box */
 
 /* footer */
 .site-footer{padding-bottom:40px;color:var(--muted);font-size:14px;line-height:1.6}
